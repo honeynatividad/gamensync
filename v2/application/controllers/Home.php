@@ -21,7 +21,7 @@ class Home extends CI_Controller {
 		//echo '</pre>';
 		$this->load->view('template/header-main');
 		$this->load->view('template/header-nav',$data);
-        $this->load->view('template/header-main-nav');
+        //$this->load->view('template/header-main-nav');
 
         $this->load->view('template/main-banner');
         $this->load->view('home/index');

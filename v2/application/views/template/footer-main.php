@@ -1,4 +1,4 @@
-				<!-- Footer -->
+<!-- Footer -->
 				<div class="no-break-20">
 					<div class="footer-container">
 						<div class="col-sm-12 col-lg-12">	

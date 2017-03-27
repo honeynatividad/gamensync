@@ -46,7 +46,7 @@ class Users extends CI_Controller {
         $data['user'] = $userData;
         
 		$this->load->view('template/header-main');
-		//$this->load->view('template/header-nav',$data);
+		$this->load->view('template/header-nav',$data);
         //$this->load->view('template/header-main-nav');
 
        
