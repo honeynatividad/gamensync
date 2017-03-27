@@ -13,7 +13,7 @@
 
 					<ul class="nav navbar-nav navbar-right">
 						<li class="top-menu-right dropdown dropdown-user">
-							<a href="registration.html">
+							<a href="<?php echo base_url('users/register') ?>">
 								<i class="icon-pencil7 text-red"></i>
 								<span>REGISTER</span>								
 							</a>
@@ -21,7 +21,7 @@
 
 						
 						<li class="top-menu-right dropdown dropdown-user">
-							<a href="registration.html">
+							<a href="<?php echo base_url('users/login'); ?>">
 								<i class="icon-lock text-red"></i>
 								<span>SIGN IN</span>								
 							</a>

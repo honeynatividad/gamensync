@@ -10,7 +10,7 @@
 					<!-- Main navbar -->
 			<div class="navbar">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Game N' Sync logo"></a>
+					<a class="navbar-brand" href="<?php echo base_url('home'); ?>"><img src="<?php echo base_url('assets/images/logo.png') ?>" alt="Game N' Sync logo"></a>
 
 					<ul class="nav navbar-nav pull-right visible-xs-block">
 						<li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>
@@ -23,7 +23,7 @@
 
 					<ul class="nav navbar-nav navbar-right">
 						<li class="top-menu-right dropdown dropdown-user">
-							<a href="registration.html">
+							<a href="<?php echo base_url('users/register'); ?>">
 								<i class="icon-pencil7 text-red"></i>
 								<span>REGISTER</span>								
 							</a>
@@ -31,7 +31,7 @@
 
 						
 						<li class="top-menu-right dropdown dropdown-user">
-							<a href="registration.html">
+							<a href="<?php echo base_url('users/register'); ?>">
 								<i class="icon-lock text-red"></i>
 								<span>SIGN IN</span>								
 							</a>
