@@ -109,6 +109,7 @@
 									</div>
 
 									<div class="tab-pane fade" id="basic-tab2">
+										<form action="<?php echo site_url('users/register') ?>" method="post">
 											<div class="panel-body">
 												<div class="text-center">
 													<div class="icon-object border-success text-success"><i class="icon-plus3"></i></div>
@@ -116,7 +117,7 @@
 												</div>
 
 												<div class="form-group has-feedback">
-													<input type="text" class="form-control" placeholder="Choose username">
+													<input type="text" class="form-control" placeholder="Choose username" name="username">
 													<div class="form-control-feedback">
 														<i class="icon-user-plus text-muted"></i>
 													</div>
@@ -125,7 +126,7 @@
 												<div class="row">
 													<div class="col-md-6">
 														<div class="form-group has-feedback">
-															<input type="text" class="form-control" placeholder="First name">
+															<input type="text" class="form-control" placeholder="First name" name="first_name">
 															<div class="form-control-feedback">
 																<i class="icon-user-check text-muted"></i>
 															</div>
@@ -134,7 +135,7 @@
 
 													<div class="col-md-6">
 														<div class="form-group has-feedback">
-															<input type="text" class="form-control" placeholder="Last name">
+															<input type="text" class="form-control" placeholder="Last name" name="last_name">
 															<div class="form-control-feedback">
 																<i class="icon-user-check text-muted"></i>
 															</div>
@@ -145,7 +146,7 @@
 												<div class="row">
 													<div class="col-md-6">
 														<div class="form-group has-feedback">
-															<input type="password" class="form-control" placeholder="Create password">
+															<input type="password" class="form-control" placeholder="Create password" name="password">
 															<div class="form-control-feedback">
 																<i class="icon-user-lock text-muted"></i>
 															</div>
@@ -154,7 +155,7 @@
 
 													<div class="col-md-6">
 														<div class="form-group has-feedback">
-															<input type="password" class="form-control" placeholder="Repeat password">
+															<input type="password" class="form-control" placeholder="Repeat password" name="password2">
 															<div class="form-control-feedback">
 																<i class="icon-user-lock text-muted"></i>
 															</div>
@@ -165,7 +166,7 @@
 												<div class="row">
 													<div class="col-md-6">
 														<div class="form-group has-feedback">
-															<input type="email" class="form-control" placeholder="Email Address">
+															<input type="email" class="form-control" placeholder="Email Address" name="email_address">
 															<div class="form-control-feedback">
 																<i class="icon-mention text-muted"></i>
 															</div>
@@ -174,7 +175,7 @@
 
 													<div class="col-md-6">
 														<div class="form-group has-feedback">
-															<input type="email" class="form-control" placeholder="Repeat email">
+															<input type="email" class="form-control" placeholder="Repeat email" name="email_address2">
 															<div class="form-control-feedback">
 																<i class="icon-mention text-muted"></i>
 															</div>
@@ -185,7 +186,7 @@
 												<div class="row">
 													<div class="col-md-6"> 
 														<div class="form-group">
-															<select data-placeholder="Plaform"  class="select">
+															<select data-placeholder="Plaform"  class="select" name="platform">
 																<option value="android">Android</option>
 																<option value="ios">IOS</option> 
 															</select>     
@@ -194,7 +195,7 @@
 
 													<div class="col-md-6"> 
 														<div class="form-group">
-															<select data-placeholder="Interest"  class="select" >
+															<select data-placeholder="Interest"  class="select" name="interest">
 																<option value="action">Action</option>
 																<option value="adventure">Adventure</option> 
 																<option value="arcade">Arcade</option>
@@ -221,14 +222,14 @@
 												<div class="form-group">
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" class="styled" checked="checked">
+															<input type="checkbox" class="styled" checked="checked" name="notify" id="notify">
 															Notify me if there's any <a href="https://gamensync.com/profile-settings">updates or message</a>
 														</label>
 													</div>
 
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" class="styled" checked="checked">
+															<input type="checkbox" class="styled" checked="checked" name="subscribe" id="subscribe">
 															Subscribe to monthly newsletter
 														</label>
 													</div>
@@ -236,16 +237,17 @@
 													<div class="checkbox">
 														<label>
 															<input type="checkbox" class="styled">
-															Accept <a href="https://gamensync.com/terms-of-service">Terms of Service</a>
+															Accept <a href="https://gamensync.com/terms-of-service" name="agree" id="agree">Terms of Service</a>
 														</label>
 													</div>
 												</div>
 
 												<div class="text-right">
-													<button type="submit" class="btn btn-link"><i class="icon-arrow-left13 icon-orange position-left"></i> Back to login form</button>
-													<button type="submit" class="btn bg-red btn-labeled btn-labeled-right ml-10"><b><i class="icon-plus3"></i></b> Create account</button>
+													<button class="btn btn-link"><i class="icon-arrow-left13 icon-orange position-left"></i> Back to login form</button>
+													<button type="submit" name="submit" id="submit"  class="btn bg-red btn-labeled btn-labeled-right ml-10"><b><i class="icon-plus3"></i></b> Create account</button>
 												</div>
 											</div> 
+										</form>
 									</div>
 								</div>
 							</div>

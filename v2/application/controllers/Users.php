@@ -21,17 +21,19 @@ class Users extends CI_Controller {
 
 		$data = array();
         $userData = array();
-        if($this->input->post('regisSubmit')){
+        if($this->input->post('submit')){
             $this->form_validation->set_rules('name', 'Name', 'required');
             $this->form_validation->set_rules('email', 'Email', 'required');
             $this->form_validation->set_rules('password', 'password', 'required');
-            $this->form_validation->set_rules('conf_password', 'confirm password', 'required|matches[password]');
+            $this->form_validation->set_rules('password2', 'confirm password', 'required|matches[password]');
             $userData = array(
-                'name' => strip_tags($this->input->post('name')),
-                'email' => strip_tags($this->input->post('email')),
+                'username' => strip_tags($this->input->post('username')),
+                'first_name' => strip_tags($this->input->post('first_name')),
+                'last_name' => $this->input->post('last_name'),
                 'password' => md5($this->input->post('password')),
-                'gender' => $this->input->post('gender'),
-                'phone' => strip_tags($this->input->post('phone'))
+                'email_address' => $this->input->post('email_address'),
+                'platform' => strip_tags($this->input->post('platform')),
+                'interest' => strip_tags($this->input->post('interest'))
             );
             if($this->form_validation->run() == true){
                 $insert = $this->user->insert($userData);
