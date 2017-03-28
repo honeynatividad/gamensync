@@ -6923,9 +6923,26 @@ tr:nth-child(even) {
 .panel-reg{
  background: url(../images/reg_bg.jpg) top center repeat-y !important
 }
-.color-android {
+.color-android{
 	color: #A4C639
 }
 .color-ios {
 	color: #cccccc
+}
+ 
+@media (min-width: 769px) {
+.text-width {
+    max-width:370px;
+ }
+}
+
+@media (max-width: 481px)  {
+.text-width {
+    max-width:250px;
+ }
+}
+@media (max-width: 360px) {
+.text-width {
+    max-width: 140px;
+ }
 }

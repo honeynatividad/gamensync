@@ -626,7 +626,7 @@
   border-color: #C62828;
 }
 .border-success {
-  border-color: #4CAF50;
+  border-color: #A4C639;
 }
 .border-success-300 {
   border-color: #81C784;
@@ -842,7 +842,7 @@
   border-color: #4E342E;
 }
 .border-grey {
-  border-color: #777;
+  border-color: #ccc;
 }
 .border-grey-300 {
   border-color: #999;
@@ -2050,7 +2050,9 @@
 .icon-red {
   color:rgb(232, 53, 52);
 }
- 
+ .text-white {
+  color: #ddd !important;
+ }
 .text-red,
 .text-red:hover,
 .text-red:focus {

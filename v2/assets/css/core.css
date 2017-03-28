@@ -1002,8 +1002,13 @@ th {
   background-color: rgba(0, 0, 0, 0.05);
 }
 .table-hover > tbody > tr:hover > th,
-.table-hover > tbody > tr:hover > td {
-  background-color: inherit;
+.table-hover > tbody > tr:hover   {
+  background-color: #181b1e;
+  -webkit-box-shadow: 0 1px rgba(255, 255, 255, .1), inset 0 1px 2px rgba(0, 0, 0, .6) !important;
+  -moz-box-shadow: 0 1px rgba(255, 255, 255, .1), inset 0 1px 2px rgba(0, 0, 0, .6) !important;
+  box-shadow: 0 1px rgba(255, 255, 255, .1), inset 0 1px 2px rgba(0, 0, 0, .6) !important;
+  border-top: 1px solid rgba(0, 0, 0, .9);
+  border-bottom: 1px solid rgba(0, 0, 0, .9);
 }
 .panel[class*=bg-] .table-hover > tbody > tr:hover,
 .table-hover[class*=bg-] > tbody > tr:hover {
@@ -1740,14 +1745,17 @@ input[class*=bg-] + .form-control-feedback {
   border-radius: 0 0 3px 0;
 }
 .btn-link {
-  color: rgb(232, 53, 52);
+  color: #FFF;
 }
+.btn-link:hover {
+  color:rgb(232, 53, 52)
+}  
 .btn-link,
 .btn-link:hover,
 .btn-link:focus,
 .btn-link:active {
   -webkit-box-shadow: none;
-  box-shadow: none;
+  box-shadow: none; 
 }
 .btn-rounded,
 .btn-rounded.btn-labeled > b,
@@ -6235,9 +6243,8 @@ h6.panel-title,
 }
 .panel-footer-transparent {
   background-color: transparent;
-  border-top: 0;
-  padding-top: 0;
-  padding-bottom: 12px;
+  background: #222;
+  /* padding-bottom: 12px; */
 }
 .panel-footer-condensed {
   padding-top: 2px;
