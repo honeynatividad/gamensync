@@ -1,4 +1,4 @@
-				<!-- Breadrumbs -->
+<!-- Breadrumbs -->
 				<div class="content-group-lg border-top-lg border-red">
 					<div class="page-header page-header-default">
 						<div class="page-header-content1">
@@ -28,7 +28,7 @@
 
 
 				<!-- Main Index Content -->
-				<ddiv class="row">
+				<div class="row">
 					
 					<!-- Game Content -->
 					<div class="col-lg-9">
@@ -81,12 +81,12 @@
 															</td >
 															<td class="text-width">
 																<a href="#" class="text-white text-left"> Wonder Tactics Wonder Tactics adfasdadasdawfdsf</a> 
-															</td>
+															</td>	
 															<td class="text-center">45</td>
 															<td class="text-center">
 																<a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</a>
 																<!--IOS-->
-																<!-- <a href="#" data-popup="tooltip" title="IOS"><i class="icon-apple2 color-ios"></i></a>
+																<!-- <a href="#"><i class="icon-apple3 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> Android</a></i></a>
 																-->
 																<!--/ios-->
 															</td>
@@ -141,7 +141,7 @@
 															<td class="text-center">
 																<a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</a>
 																<!--IOS-->
-																<!-- <a href="#" data-popup="tooltip" title="IOS"><i class="icon-apple2 color-ios"></i></a>
+																<!-- <a href="#"><i class="icon-apple2 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> Android</a></i></a>
 																-->
 																<!--/ios-->
 															</td>
@@ -185,7 +185,7 @@
 															<td class="text-center">
 																<a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</a>
 																<!--IOS-->
-																<!-- <a href="#" data-popup="tooltip" title="IOS"><i class="icon-apple2 color-ios"></i></a>
+																<!-- <a href="#"><i class="icon-apple2 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> Android</a></i></a>
 																-->
 																<!--/ios-->
 															</td>
@@ -229,7 +229,7 @@
 															<td class="text-center">
 																<a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</a>
 																<!--IOS-->
-																<!-- <a href="#" data-popup="tooltip" title="IOS"><i class="icon-apple2 color-ios"></i></a>
+																<!-- <a href="#"><i class="icon-apple2 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> Android</a></i></a>
 																-->
 																<!--/ios-->
 															</td>
@@ -273,7 +273,7 @@
 															<td class="text-center">
 																<a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</a>
 																<!--IOS-->
-																<!-- <a href="#" data-popup="tooltip" title="IOS"><i class="icon-apple2 color-ios"></i></a>
+																<!-- <a href="#"><i class="icon-apple2 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> Android</a></i></a>
 																-->
 																<!--/ios-->
 															</td>
@@ -477,7 +477,8 @@
 																		<a href="#" class="text-white dropdown-toggle" data-toggle="dropdown"><i class="icon-menu7"></i> <span class="caret"></span></a>
 																		<ul class="dropdown-menu dropdown-menu-right">
 																			<li><a href="#"><i class="icon-heart5"></i> Like </a></li>
-																			<li><a href="#"><i class="icon-basket"></i> For Sale</a></li>
+																			<li><a href="#"><i class="icon-basket"></i> Account for Sale </a></li>
+																			<li><a href="#"><i class="icon-info3"></i> Tips & Hints</a></li>
 																			<li><a href="#"><i class="icon-plus3"></i> Add to wishlist  </a></li>
 																		</ul>
 																	</li>
@@ -507,37 +508,8 @@
 																		<a href="#" class="text-white dropdown-toggle" data-toggle="dropdown"><i class="icon-menu7"></i> <span class="caret"></span></a>
 																		<ul class="dropdown-menu dropdown-menu-right">
 																			<li><a href="#"><i class="icon-heart5"></i> Like </a></li>
-																			<li><a href="#"><i class="icon-basket"></i> For Sale</a></li>
-																			<li><a href="#"><i class="icon-plus3"></i> Add to wishlist  </a></li>
-																		</ul>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</div>
-												
-												<div class="col-md-6 col-lg-3">
-													<div class="panel border-left-lg border-left-success timeline-content">
-														<div class="panel-body">
-															<a href="#" class="display-block content-group">
-																<img src="assets/images/placeholder.jpg" class="img-responsive content-group" alt="">
-															</a> 
-															<div class="text-center">
-																<h6 class="no-margin-top"><a href="task_manager_detailed.html">Magic Slayer</a></h6>		
-																<a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</span></a>
-															</div>
-														</div>
-														<div class="panel-footer panel-footer-condensed"><a class="heading-elements-toggle"><i class="icon-more"></i></a>
-															<div class="heading-elements">
-																<span class=" heading-text text-grey position-right">Roleplaying</span>
-
-																<ul class="list-inline list-inline-condensed heading-text pull-right">
-																	<li class="dropdown">
-																		<a href="#" class="text-white dropdown-toggle" data-toggle="dropdown"><i class="icon-menu7"></i> <span class="caret"></span></a>
-																		<ul class="dropdown-menu dropdown-menu-right">
-																			<li><a href="#"><i class="icon-heart5"></i> Like </a></li>
-																			<li><a href="#"><i class="icon-basket"></i> For Sale</a></li>
+																			<li><a href="#"><i class="icon-basket"></i> Account for Sale </a></li>
+																			<li><a href="#"><i class="icon-info3"></i> Tips & Hints</a></li>
 																			<li><a href="#"><i class="icon-plus3"></i> Add to wishlist  </a></li>
 																		</ul>
 																	</li>
@@ -567,7 +539,39 @@
 																		<a href="#" class="text-white dropdown-toggle" data-toggle="dropdown"><i class="icon-menu7"></i> <span class="caret"></span></a>
 																		<ul class="dropdown-menu dropdown-menu-right">
 																			<li><a href="#"><i class="icon-heart5"></i> Like </a></li>
-																			<li><a href="#"><i class="icon-basket"></i> For Sale</a></li>
+																			<li><a href="#"><i class="icon-basket"></i> Account for Sale </a></li>
+																			<li><a href="#"><i class="icon-info3"></i> Tips & Hints</a></li>
+																			<li><a href="#"><i class="icon-plus3"></i> Add to wishlist  </a></li>
+																		</ul>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+												
+												<div class="col-md-6 col-lg-3">
+													<div class="panel border-left-lg border-left-success timeline-content">
+														<div class="panel-body">
+															<a href="#" class="display-block content-group">
+																<img src="assets/images/placeholder.jpg" class="img-responsive content-group" alt="">
+															</a> 
+															<div class="text-center">
+																<h6 class="no-margin-top"><a href="task_manager_detailed.html">Magic Slayer</a></h6>		
+																<a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</span></a>
+															</div>
+														</div>
+														<div class="panel-footer panel-footer-condensed"><a class="heading-elements-toggle"><i class="icon-more"></i></a>
+															<div class="heading-elements">
+																<span class=" heading-text text-grey position-right">Roleplaying</span>
+
+																<ul class="list-inline list-inline-condensed heading-text pull-right">
+																	<li class="dropdown">
+																		<a href="#" class="text-white dropdown-toggle" data-toggle="dropdown"><i class="icon-menu7"></i> <span class="caret"></span></a>
+																		<ul class="dropdown-menu dropdown-menu-right">
+																			<li><a href="#"><i class="icon-heart5"></i> Like </a></li>
+																			<li><a href="#"><i class="icon-basket"></i> Account for Sale </a></li>
+																			<li><a href="#"><i class="icon-info3"></i> Tips & Hints</a></li>
 																			<li><a href="#"><i class="icon-plus3"></i> Add to wishlist  </a></li>
 																		</ul>
 																	</li>
@@ -596,7 +600,7 @@
 												<div class="col-lg-6">
 													<div class="panel panel-flat timeline-content">
 														<div class="panel-heading">
-															<h6 class="panel-title">Himalayan sunset<a class="heading-elements-toggle"><i class="icon-more"></i></a></h6>
+															<h6 class="panel-title">Wonder Tactics<a class="heading-elements-toggle"><i class="icon-more"></i></a></h6>
 															<div class="heading-elements">
 																<span class="heading-text"><i class="icon-checkmark-circle position-left text-success"></i> 49 minutes ago</span>
 																<ul class="icons-list">
@@ -606,11 +610,12 @@
 																		</a>
 
 																		<ul class="dropdown-menu dropdown-menu-right">
-																			<li><a href="#"><i class="icon-user-lock"></i> Hide user posts</a></li>
-																			<li><a href="#"><i class="icon-user-block"></i> Block user</a></li>
-																			<li><a href="#"><i class="icon-user-minus"></i> Unfollow user</a></li>
+																			<li><a href="#"><i class="icon-heart5"></i> Like</a></li>
+																			<li><a href="#"><i class="icon-share4"></i> Share</a></li>
+																			<li><a href="#"><i class="icon-git-compare"></i> Similar Review</a></li>
 																			<li class="divider"></li>
-																			<li><a href="#"><i class="icon-embed"></i> Embed post</a></li>
+																			<li><a href="#"><i class="icon-user-plus"></i> Add user</a></li>
+																			<li><a href="#"><i class="icon-bubble8"></i> Send Message</a></li>
 																			<li><a href="#"><i class="icon-blocked"></i> Report this post</a></li>
 																		</ul>
 																	</li>
@@ -622,23 +627,33 @@
 															<a href="#" class="display-block content-group">
 																<img src="assets/images/placeholder.jpg" class="img-responsive content-group" alt="">
 															</a>
-
-															<h6 class="content-group">
-																<i class="icon-comment-discussion position-left"></i>
-																<a href="#">Jason Ansley</a> commented:
-															</h6>
+															<ul class="list-inline list-inline-separate text-muted content-group">
+																<li>By <a href="#" class="text-muted">Kirayuki</a></li>
+																<li><a href="#" class="text-muted">12 comments</a></li>
+																<li><a href="#" class="text-muted"><i class="icon-heart5 text-size-base text-pink position-left"></i> 281</a></li>
+																<li><a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</span></a></a></li>
+																<!-- <li><a href="#"><i class="icon-apple3 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> Android</span></a></a></li> -->
+															</ul>  
+								 
 
 															<blockquote>
-																<p>When suspiciously goodness labrador understood rethought yawned grew piously endearingly inarticulate oh goodness jeez trout distinct hence cobra despite taped laughed the much audacious less inside tiger groaned darn stuffily metaphoric unihibitedly inside cobra.</p>
-																<footer>Jason, <cite title="Source Title">10:39 am</cite></footer>
-															</blockquote>
+																<p>Wonder tactics in its closed beta phase is decent and could easily get 4 star following a constant and interesting future release.</p>
+																<footer>Kirayuki, <cite title="Source Title">10:39 am</cite></footer>
+															</blockquote> 
 														</div>
 
 														<div class="panel-footer panel-footer-transparent"><a class="heading-elements-toggle"><i class="icon-more"></i></a>
 															<div class="heading-elements">
 																<ul class="list-inline list-inline-condensed heading-text">
-																	<li><a href="#" class="text-muted"><i class="icon-eye4 position-left"></i> 438</a></li>
-																	<li><a href="#" class="text-muted"><i class="icon-comment-discussion position-left"></i> 71</a></li>
+																	<li>
+																		<i class="icon-star-full2 text-size-base text-warning-300"></i>
+																		<i class="icon-star-full2 text-size-base text-warning-300"></i>
+																		<i class="icon-star-full2 text-size-base text-warning-300"></i>
+																		<i class="icon-star-full2 text-size-base text-warning-300"></i>
+																		<i class="icon-star-half text-size-base text-warning-300"></i>
+																		<span class="text-muted position-right">(12)</span>
+																	</li>
+																	<li><a href="#" class="text-muted"><i class="icon-eye4 position-left"></i> 71</a></li>
 																</ul>
 
 																<span class="heading-btn pull-right">
@@ -652,9 +667,9 @@
 												<div class="col-lg-6">
 													<div class="panel panel-flat timeline-content">
 														<div class="panel-heading">
-															<h6 class="panel-title">Diving lesson in Dubai<a class="heading-elements-toggle"><i class="icon-more"></i></a></h6>
+															<h6 class="panel-title">Wonder Tactics<a class="heading-elements-toggle"><i class="icon-more"></i></a></h6>
 															<div class="heading-elements">
-																<span class="heading-text"><i class="icon-checkmark-circle position-left text-success"></i> 3 hours ago</span>
+																<span class="heading-text"><i class="icon-checkmark-circle position-left text-success"></i> 49 minutes ago</span>
 																<ul class="icons-list">
 																	<li class="dropdown">
 																		<a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -662,11 +677,12 @@
 																		</a>
 
 																		<ul class="dropdown-menu dropdown-menu-right">
-																			<li><a href="#"><i class="icon-user-lock"></i> Hide user posts</a></li>
-																			<li><a href="#"><i class="icon-user-block"></i> Block user</a></li>
-																			<li><a href="#"><i class="icon-user-minus"></i> Unfollow user</a></li>
+																			<li><a href="#"><i class="icon-heart5"></i> Like</a></li>
+																			<li><a href="#"><i class="icon-share4"></i> Share</a></li>
+																			<li><a href="#"><i class="icon-git-compare"></i> Similar Review</a></li>
 																			<li class="divider"></li>
-																			<li><a href="#"><i class="icon-embed"></i> Embed post</a></li>
+																			<li><a href="#"><i class="icon-user-plus"></i> Add user</a></li>
+																			<li><a href="#"><i class="icon-bubble8"></i> Send Message</a></li>
 																			<li><a href="#"><i class="icon-blocked"></i> Report this post</a></li>
 																		</ul>
 																	</li>
@@ -676,25 +692,34 @@
 
 														<div class="panel-body">
 															<a href="#" class="display-block content-group">
-																<img src="assets/images/placeholder.jpg" class="img-responsive" alt="">
+																<img src="assets/images/placeholder.jpg" class="img-responsive content-group" alt="">
 															</a>
-
-															<h6 class="content-group">
-																<i class="icon-comment-discussion position-left"></i>
-																<a href="#">Melanie Watson</a> commented:
-															</h6>
+															<ul class="list-inline list-inline-separate text-muted content-group">
+																<li>By <a href="#" class="text-muted">Eugene</a></li>
+																<li><a href="#" class="text-muted">12 comments</a></li>
+																<li><a href="#" class="text-muted"><i class="icon-heart5 text-size-base text-pink position-left"></i> 281</a></li>
+																<li><a href="#"><i class="icon-apple2 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> IOS</span></a></a></li>
+															</ul>  
+								 
 
 															<blockquote>
-																<p>Pernicious drooled tryingly over crud peaceful gosh yet much following brightly mallard hey gregariously far gosh until earthworm python some impala belched darn a sighed unicorn much changed and astride cat and burned grizzly when jeez wonderful the outside tedious.</p>
-																<footer>Melanie, <cite title="Source Title">12:56 am</cite></footer>
-															</blockquote>
+																<p>Wonder tactics in its closed beta phase is decent and could easily get 4 star following a constant and interesting future release.</p>
+																<footer>Kirayuki, <cite title="Source Title">10:39 am</cite></footer>
+															</blockquote> 
 														</div>
 
 														<div class="panel-footer panel-footer-transparent"><a class="heading-elements-toggle"><i class="icon-more"></i></a>
 															<div class="heading-elements">
 																<ul class="list-inline list-inline-condensed heading-text">
-																	<li><a href="#" class="text-muted"><i class="icon-eye4 position-left"></i> 438</a></li>
-																	<li><a href="#" class="text-muted"><i class="icon-comment-discussion position-left"></i> 71</a></li>
+																	<li>
+																		<i class="icon-star-full2 text-size-base text-warning-300"></i>
+																		<i class="icon-star-full2 text-size-base text-warning-300"></i>
+																		<i class="icon-star-full2 text-size-base text-warning-300"></i>
+																		<i class="icon-star-full2 text-size-base text-warning-300"></i>
+																		<i class="icon-star-half text-size-base text-warning-300"></i>
+																		<span class="text-muted position-right">(12)</span>
+																	</li>
+																	<li><a href="#" class="text-muted"><i class="icon-eye4 position-left"></i> 71</a></li>
 																</ul>
 
 																<span class="heading-btn pull-right">
@@ -1303,26 +1328,301 @@
 						<!-- /thumbnails -->
 
 
-						<!-- Balance chart -->
+						<!-- New Walkthrough -->
 						<div class="panel panel-flat">
 							<div class="panel-heading">
-								<h6 class="panel-title">Balance changes</h6>
+								<h6 class="panel-title">Tips & Hints<a class="heading-elements-toggle"><i class="icon-more"></i></a></h6>
+
 								<div class="heading-elements">
-									<span class="heading-text"><i class="icon-arrow-down22 text-danger"></i> <span class="text-semibold">- 29.4%</span></span>
+									<ul class="icons-list">
+										<li><a href="#"><i class="icon-arrow-right13"></i></a></li>
+									</ul>
 			                	</div>
 							</div>
 
-							<div class="panel-body">
-								<div class="chart-container">
-									<div class="chart" id="visits" style="height: 300px;"></div>
-								</div>
-	                    	</div>
+							<ul class="media-list panel-body">
+								<li class="media">
+									<div class="media-left">
+										<img src="assets/images/placeholder.jpg" class="img-sm" alt=""> <!-- game avatar--> 
+									</div>
+
+									<div class="media-body">
+										<a href="#" class="media-heading">
+											<span class="text-semibold text-white">Instant Win in 10 rounds adasdasdasdasdasd</span>											
+										</a>
+
+										<span class="text-muted">Mobile Legend</span>
+										<a href="#" data-popup="tooltip" title="" data-original-title="Add tips"> <span class="icon-plus3 pull-right"></span> </a>
+									</div>
+								</li>
+
+								<li class="media">
+									<div class="media-left">
+										<img src="assets/images/placeholder.jpg" class="img-sm" alt=""> <!-- game avatar--> 
+									</div>
+
+									<div class="media-body">
+										<a href="#" class="media-heading">
+											<span class="text-semibold text-white">Instant Win in 10 rounds adasdasdasdasdasd</span>											
+										</a>
+
+										<span class="text-muted">Mobile Legend</span>
+										<a href="#" data-popup="tooltip" title="" data-original-title="Add tips"> <span class="icon-plus3 pull-right"></span> </a>
+									</div>
+								</li>
+
+								<li class="media">
+									<div class="media-left">
+										<img src="assets/images/placeholder.jpg" class="img-sm" alt=""> <!-- game avatar--> 
+									</div>
+
+									<div class="media-body">
+										<a href="#" class="media-heading">
+											<span class="text-semibold text-white">Instant Win in 10 rounds adasdasdasdasdasd</span>											
+										</a>
+
+										<span class="text-muted">Mobile Legend</span>
+										<a href="#" data-popup="tooltip" title="" data-original-title="Add tips"> <span class="icon-plus3 pull-right"></span> </a>
+									</div>
+								</li>
+
+								<li class="media">
+									<div class="media-left">
+										<img src="assets/images/placeholder.jpg" class="img-sm" alt=""> <!-- game avatar--> 
+									</div>
+
+									<div class="media-body">
+										<a href="#" class="media-heading">
+											<span class="text-semibold text-white">Instant Win in 10 rounds adasdasdasdasdasd</span>											
+										</a>
+
+										<span class="text-muted">Mobile Legend</span>
+										<a href="#" data-popup="tooltip" title="" data-original-title="Add tips"> <span class="icon-plus3 pull-right"></span> </a>
+									</div>
+								</li>
+								
+								<li class="media">
+									<div class="media-left">
+										<img src="assets/images/placeholder.jpg" class="img-sm" alt=""> <!-- game avatar--> 
+									</div>
+
+									<div class="media-body">
+										<a href="#" class="media-heading">
+											<span class="text-semibold text-white">Instant Win in 10 rounds adasdasdasdasdasd</span>											
+										</a>
+
+										<span class="text-muted">Mobile Legend</span>
+										<a href="#" data-popup="tooltip" title="" data-original-title="Add tips"> <span class="icon-plus3 pull-right"></span> </a>
+									</div>
+								</li>
+							</ul>
 						</div>
-						<!-- /balance chart -->
+						<!-- /new walkthrough -->
+						
+						<!-- Hall of Fame -->
+						<div class="panel panel-flat"> 
+
+							<!-- Tabs nav -->
+		                	<ul class="nav nav-tabs nav-justified no-margin no-border-radius">
+								<li class="active">
+									<a href="#today" class="text-size-small text-uppercase text-semibold" data-toggle="tab" aria-expanded="true">
+										Top Seller
+									</a>
+								</li>
+
+								<li class="">
+									<a href="#yesterday" class="text-size-small text-uppercase text-semibold" data-toggle="tab" aria-expanded="false">
+										Top Pilot
+									</a>
+								</li>
+							</ul>
+							<!-- /tabs nav -->
+
+
+							<!-- Tabs content -->
+							<div class="tab-content panel-body">
+								<div class="tab-pane fade active in" id="today">
+									<ul class="media-list">
+										<li class="media">
+											<div class="media-left">
+												<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""> 
+											</div>
+
+											<div class="media-body">
+												<a href="#">
+													James Alexander
+													<span class="media-annotation pull-right">139</span>
+												</a>
+
+												<ul class="icons-list">
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="View profile"><i class="text-teal icon-eye"></i></a></li>
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Accounts for sale"><i class="text-red icon-basket"></i></a></li>
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Add user"><i class="text-green icon-user-plus"></i></a></li> 
+												</ul>
+											</div>
+										</li>
+
+										<li class="media">
+											<div class="media-left">
+												<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""> 
+											</div>
+
+											<div class="media-body">
+												<a href="#">
+													James Alexander
+													<span class="media-annotation pull-right">139</span>
+												</a>
+
+												<ul class="icons-list">
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="View profile"><i class="text-teal icon-eye"></i></a></li>
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Accounts for sale"><i class="text-red icon-basket"></i></a></li>
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Add user"><i class="text-green icon-user-plus"></i></a></li> 
+												</ul>
+											</div>
+										</li>
+
+										<li class="media">
+											<div class="media-left">
+												<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""> 
+											</div>
+
+											<div class="media-body">
+												<a href="#">
+													James Alexander
+													<span class="media-annotation pull-right">139</span>
+												</a>
+
+												<ul class="icons-list">
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="View profile"><i class="text-teal icon-eye"></i></a></li>
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Accounts for sale"><i class="text-red icon-basket"></i></a></li>
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Add user"><i class="text-green icon-user-plus"></i></a></li> 
+												</ul>
+											</div>
+										</li>
+
+										<li class="media">
+											<div class="media-left">
+												<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""> 
+											</div>
+
+											<div class="media-body">
+												<a href="#">
+													James Alexander
+													<span class="media-annotation pull-right">139</span>
+												</a>
+
+												<ul class="icons-list">
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="View profile"><i class="text-teal icon-eye"></i></a></li>
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Accounts for sale"><i class="text-red icon-basket"></i></a></li>
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Add user"><i class="text-green icon-user-plus"></i></a></li> 
+												</ul>
+											</div>
+										</li>
+										<li class="media">
+											<div class="media-left">
+												<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""> 
+											</div>
+
+											<div class="media-body">
+												<a href="#">
+													James Alexander
+													<span class="media-annotation pull-right">139</span>
+												</a>
+
+												<ul class="icons-list">
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="View profile"><i class="text-teal icon-eye"></i></a></li>
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Accounts for sale"><i class="text-red icon-basket"></i></a></li>
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Add user"><i class="text-green icon-user-plus"></i></a></li> 
+												</ul>
+											</div>
+										</li>
+									</ul>
+								</div>
+
+								<div class="tab-pane fade" id="yesterday">
+									<ul class="media-list">
+										<li class="media">
+											<div class="media-left">
+												<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""> 
+											</div>
+
+											<div class="media-body">
+												<a href="#">
+													Kiramarie
+													<span class="media-annotation pull-right">139</span>
+												</a>
+
+												<ul class="icons-list">
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="View profile"><i class="icon-eye"></i></a></li>
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Request pilot"><i class="icon-airplane3"></i></a></li>
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Add user"><i class="icon-user-plus"></i></a></li> 
+												</ul>
+											</div>
+										</li>
+
+										<li class="media">
+											<div class="media-left">
+												<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""> 
+											</div>
+
+											<div class="media-body">
+												<a href="#">
+													Kiramarie
+													<span class="media-annotation pull-right">139</span>
+												</a>
+
+												<ul class="icons-list">
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="View profile"><i class="icon-eye"></i></a></li>
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Request pilot"><i class="icon-airplane3"></i></a></li>
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Add user"><i class="icon-user-plus"></i></a></li> 
+												</ul>
+											</div>
+										</li>
+
+										<li class="media">
+											<div class="media-left">
+												<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""> 
+											</div>
+
+											<div class="media-body">
+												<a href="#">
+													Kiramarie
+													<span class="media-annotation pull-right">139</span>
+												</a>
+
+												<ul class="icons-list">
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="View profile"><i class="icon-eye"></i></a></li>
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Request pilot"><i class="icon-airplane3"></i></a></li>
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Add user"><i class="icon-user-plus"></i></a></li> 
+												</ul>
+											</div>
+										</li>
+
+										<li class="media">
+											<div class="media-left">
+												<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""> 
+											</div>
+
+											<div class="media-body">
+												<a href="#">
+													Kiramarie
+													<span class="media-annotation pull-right">139</span>
+												</a>
+
+												<ul class="icons-list">
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="View profile"><i class="icon-eye"></i></a></li>
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Request pilot"><i class="icon-airplane3"></i></a></li>
+													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Add user"><i class="icon-user-plus"></i></a></li> 
+												</ul>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!-- /tabs content -->
+
+						</div>
+						<!-- /new walkthrough -->
  
 					</div>
 					<!-- /sidebar -->
-					
-				</div>
-				<!-- /main content -->
-			 
