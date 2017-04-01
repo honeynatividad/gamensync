@@ -56,7 +56,7 @@
 
 								<div class="tab-content panel-body">
 									<div class="tab-pane fade in active" id="basic-tab1">
-										<form action="index.html">
+										<form action="">
 											<div class="text-center">
 												<div class="icon-object   icon-red"><i class="icon-reading"></i></div>
 												<h5 class="content-group">Login to your account</h5>
@@ -109,6 +109,7 @@
 									</div>
 
 									<div class="tab-pane fade" id="basic-tab2">
+										<form action="" method="POST">
 											<div class="panel-body">
 												<div class="text-center">
 													<div class="icon-object border-success text-success"><i class="icon-plus3"></i></div>
@@ -125,7 +126,7 @@
 												<div class="row">
 													<div class="col-md-6">
 														<div class="form-group has-feedback">
-															<input type="text" class="form-control" placeholder="First name">
+															<input type="text" class="form-control" placeholder="First name" id="first_name" name="first_name">
 															<div class="form-control-feedback">
 																<i class="icon-user-check text-muted"></i>
 															</div>
@@ -134,7 +135,7 @@
 
 													<div class="col-md-6">
 														<div class="form-group has-feedback">
-															<input type="text" class="form-control" placeholder="Last name">
+															<input type="text" class="form-control" placeholder="Last name" id="last_name" name="last_name">
 															<div class="form-control-feedback">
 																<i class="icon-user-check text-muted"></i>
 															</div>
@@ -145,7 +146,7 @@
 												<div class="row">
 													<div class="col-md-6">
 														<div class="form-group has-feedback">
-															<input type="password" class="form-control" placeholder="Create password">
+															<input type="password" class="form-control" placeholder="Create password" name="password" id="password">
 															<div class="form-control-feedback">
 																<i class="icon-user-lock text-muted"></i>
 															</div>
@@ -154,18 +155,25 @@
 
 													<div class="col-md-6">
 														<div class="form-group has-feedback">
-															<input type="password" class="form-control" placeholder="Repeat password">
+															<input type="password" class="form-control" placeholder="Repeat password" id="password2" name="password2">
 															<div class="form-control-feedback">
 																<i class="icon-user-lock text-muted"></i>
 															</div>
 														</div>
 													</div>
 												</div>
+												<div class="row">
+													<div class="col-md-6">
+														<div id="message_password">
+														</div>
+													</div>
+													
+												</div>
 
 												<div class="row">
 													<div class="col-md-6">
 														<div class="form-group has-feedback">
-															<input type="email" class="form-control" placeholder="Email Address">
+															<input type="email" class="form-control" placeholder="Email Address" id="email_address" name="email_address">
 															<div class="form-control-feedback">
 																<i class="icon-mention text-muted"></i>
 															</div>
@@ -174,18 +182,25 @@
 
 													<div class="col-md-6">
 														<div class="form-group has-feedback">
-															<input type="email" class="form-control" placeholder="Repeat email">
+															<input type="email" class="form-control" placeholder="Repeat email" id="email_address2" name="email_address2">
 															<div class="form-control-feedback">
 																<i class="icon-mention text-muted"></i>
 															</div>
 														</div>
 													</div>
+												</div>
+												<div class="row">
+													<div class="col-md-6">
+														<div id="message_email">
+														</div>
+													</div>
+													
 												</div>
 												
 												<div class="row">
 													<div class="col-md-6"> 
 														<div class="form-group">
-															<select data-placeholder="Plaform"  class="select">
+															<select data-placeholder="Plaform"  class="select" id="platform" name="platform">
 																<option value="android">Android</option>
 																<option value="ios">IOS</option> 
 															</select>     
@@ -194,7 +209,7 @@
 
 													<div class="col-md-6"> 
 														<div class="form-group">
-															<select data-placeholder="Interest"  class="select" >
+															<select data-placeholder="Interest"  class="select" id="interest" name="interest" >
 																<option value="action">Action</option>
 																<option value="adventure">Adventure</option> 
 																<option value="arcade">Arcade</option>
@@ -221,21 +236,21 @@
 												<div class="form-group">
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" class="styled" checked="checked">
+															<input type="checkbox" class="styled" checked="checked" name="notify">
 															Notify me if there's any <a href="https://gamensync.com/profile-settings">updates or message</a>
 														</label>
 													</div>
 
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" class="styled" checked="checked">
+															<input type="checkbox" class="styled" checked="checked" id="newsletter" name="newsletter">
 															Subscribe to monthly newsletter
 														</label>
 													</div>
 
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" class="styled">
+															<input type="checkbox" class="styled" id="accept" name="accept">
 															Accept <a href="https://gamensync.com/terms-of-service">Terms of Service</a>
 														</label>
 													</div>
@@ -243,9 +258,10 @@
 
 												<div class="text-right">
 													<button type="submit" class="btn btn-link"><i class="icon-arrow-left13 icon-orange position-left"></i> Back to login form</button>
-													<button type="submit" class="btn bg-red btn-labeled btn-labeled-right ml-10"><b><i class="icon-plus3"></i></b> Create account</button>
+													<button type="submit" id="submit" name="submit" class="btn bg-red btn-labeled btn-labeled-right ml-10"><b><i class="icon-plus3"></i></b> Create account</button>
 												</div>
 											</div> 
+										</form>
 									</div>
 								</div>
 							</div>
@@ -308,4 +324,61 @@
 				</li>				
 				<!-- /registration user dropdown -->	
 				
-				
+				<script>
+				$(document).ready(function(){
+					$('#password2').on('keyup', function () {
+					    if ($(this).val() == $('#password').val()) {
+					        $('#message_password').html('Password match!').css('color', 'green');
+					    } else $('#message_password').html('Password doesnt match!').css('color', 'red');
+					});
+
+					$('#email_address2').on('keyup', function () {
+					    if ($(this).val() == $('#email_address').val()) {
+					        $('#message_email').html('Email match!').css('color', 'green');
+					    } else $('#message_email').html('Email doesnt match!').css('color', 'red');
+					});
+
+					$('#email_address').on('keyup', function () {
+						validate();
+					});
+
+				});
+
+				function validateEmail(email) {
+					var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+				 	return re.test(email);
+				}
+
+				function validate() {
+					$("#message_email").text("");
+				  	var email = $("#email_address").val();
+				  	
+				  	if (validateEmail(email)) {
+				    	$("#message_email").text(email + " is valid :)");
+				    	$("#message_email").css("color", "green");
+				  	} else {
+				    	$("#message_email").text(email + " is not valid :(");
+				    	$("#message_email").css("color", "red");
+				  	}
+				  	return false;
+				}
+
+				function fetch_select(val)
+				{
+				    $(".lloading").text("Loading....");
+				    
+				   $.ajax({
+				     type: 'post',
+				     url: '<?php echo base_url("providers/getallDistrict");?>',
+				     data: {
+				       city:val
+				     },
+				     success: function (response) {
+				       //  alert(response);
+				       //document.getElementById("distrct_rep").innerHTML=response; 
+				       $("#distrct_rep").html(response);
+				       $(".lloading").text('done');
+				     }
+				   });
+				}
+				</script>
