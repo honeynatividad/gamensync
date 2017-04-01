@@ -39,7 +39,7 @@ class Users extends CI_Controller {
             if($this->form_validation->run() == true){
                 $insert = $this->user->insert($userData);
                 if($insert){
-                    $this->session->set_userdata('success_msg', 'Your registration was successfully. Please login to your account.');
+                    $this->session->set_userdata('success_msg', 'Your registration was successful. Please login to your account.');
                     redirect('users/login');
                 }else{
                     $data['error_msg'] = 'Some problems occured, please try again.';
