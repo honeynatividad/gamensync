@@ -9,6 +9,7 @@ class Users extends CI_Controller {
 		$this->load->helper(array('url'));
 		$this->load->helper('form');
 	    $this->load->library('form_validation');
+        $this->load->model('user');
 		$this->user_data = $this->session->userdata('userId');
 	        
     }
@@ -55,5 +56,36 @@ class Users extends CI_Controller {
         $this->load->view('users/register');
 
         $this->load->view('template/footer-main');
+    }
+
+    public function checkusername(){
+        if($this->input->post('username')){
+            $username = strip_tags($this->input->post('username'));
+            //$username = "test";
+            $check = $this->user->checkusername($username);
+            
+            echo $check;
+        }
+    }
+
+    public function register_inseret(){
+        if($this->input->post('username')){
+            $username = strip_tags($this->input->post('username'));
+            
+            //$username = "test";
+            $userData = array(
+                'username' => strip_tags($this->input->post('username')),
+                'first_name' => strip_tags($this->input->post('first_name')),
+                'last_name' => $this->input->post('last_name'),
+                'password' => md5($this->input->post('password')),
+                'email_address' => $this->input->post('email_address'),
+                'platform' => strip_tags($this->input->post('platform')),
+                'interest' => strip_tags($this->input->post('interest'))
+            );
+
+            $check = $this->user->insert($userData);
+            
+            echo $check;
+        }    
     }
 }

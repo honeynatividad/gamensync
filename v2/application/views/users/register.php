@@ -109,7 +109,7 @@
 									</div>
 
 									<div class="tab-pane fade" id="basic-tab2">
-										<form action="" method="POST">
+										<form >
 											<div class="panel-body">
 												<div class="text-center">
 													<div class="icon-object border-success text-success"><i class="icon-plus3"></i></div>
@@ -117,12 +117,18 @@
 												</div>
 
 												<div class="form-group has-feedback">
-													<input type="text" class="form-control" placeholder="Choose username">
+													<input type="text" class="form-control" placeholder="Choose username" id="username" name="username">
 													<div class="form-control-feedback">
 														<i class="icon-user-plus text-muted"></i>
 													</div>
 												</div>
-
+												<div class="row">
+													<div class="col-md-6">
+														<div id="message_username">
+														</div>
+													</div>
+													
+												</div>
 												<div class="row">
 													<div class="col-md-6">
 														<div class="form-group has-feedback">
@@ -258,7 +264,7 @@
 
 												<div class="text-right">
 													<button type="submit" class="btn btn-link"><i class="icon-arrow-left13 icon-orange position-left"></i> Back to login form</button>
-													<button type="submit" id="submit" name="submit" class="btn bg-red btn-labeled btn-labeled-right ml-10"><b><i class="icon-plus3"></i></b> Create account</button>
+													<button type="button" id="registersubmit" name="registersubmit" class="btn bg-red btn-labeled btn-labeled-right ml-10"><b><i class="icon-plus3"></i></b> Create account</button>
 												</div>
 											</div> 
 										</form>
@@ -328,18 +334,94 @@
 				$(document).ready(function(){
 					$('#password2').on('keyup', function () {
 					    if ($(this).val() == $('#password').val()) {
-					        $('#message_password').html('Password match!').css('color', 'green');
-					    } else $('#message_password').html('Password doesnt match!').css('color', 'red');
+					        $('#message_password').html('Password match!<input type="hidden" id="password_msg" name="password_msg" value="0">').css('color', 'green');
+					    } else $('#message_password').html('Password doesnt match!<input type="hidden" id="password_msg" name="password_msg" value="1">').css('color', 'red');
 					});
 
 					$('#email_address2').on('keyup', function () {
 					    if ($(this).val() == $('#email_address').val()) {
-					        $('#message_email').html('Email match!').css('color', 'green');
-					    } else $('#message_email').html('Email doesnt match!').css('color', 'red');
+					        $('#message_email').html('Email match!<input type="hidden" name="email_address_msg" id="email_address_msg" value="0">');
+					    } else $('#message_email').html('Email doesnt match!<input type="hidden" name="email_address_msg" id="email_address_msg" value="1">').css('color', 'red');
 					});
 
 					$('#email_address').on('keyup', function () {
 						validate();
+					});
+
+					$('#username').on('keyup', function () {
+						var username = $('#username').val();
+						//alert(username);
+					    $.ajax({
+					    	type: 'post',
+					     	url: '<?php echo base_url("users/checkusername");?>',
+					     	data: {
+					       		username:username
+					     	},
+					     	success: function (response) {
+					         if(response != 0){
+					         	$('#message_username').html('Unfortunately, username is already taken.<input type="hidden" name="username_msg" id="username_msg" value="0">').css('color', 'red');
+					         }else{
+					        	$('#message_username').html('<input type="hidden" name="username_msg" id="username_msg" value="1">'); 	
+					         }
+					      
+					     }
+					   });
+					});
+
+
+					$("#registersubmit").click(function(){
+						var username = $("#username").val();
+						var first_name = $("#first_name").val();
+						var last_name = $("#last_name").val();
+						var password = $("#password").val();
+						var email_address = $("#email_password").val();
+						var platform = $("#platform").val();
+						var interest = $("#interest").val();
+						var password_msg = $("#password_msg").val();
+						var email_address_msg = $("#email_address_msg").val();
+						var username_msg = $("#username_msg").val();
+						var go = 1;
+						//alert(password_msg);
+						if(password_msg == 1){
+							$('#message_password').html('You forgot to correct your confirm password. Please rectify.').css('color', 'red');
+							go = 0;
+						}
+
+						if(email_address_msg == 1){
+							$('#message_email').html('You forgot to correct your confirm email address. Please rectify.').css('color', 'red');
+							go = 0;
+						}
+
+						if(username_msg == 1){
+							$('#message_username').html('You forgot to correct your suername. Please rectify.').css('color', 'red');
+							go = 0;
+						}
+						if(username != '' && password != '' && email_address != '' && first_name != '' && last_name != '' && platform != '' && interest != ''){
+							if(go == 1){
+								$.ajax({
+							    	type: 'post',
+							     	url: '<?php echo base_url("users/register_insert");?>',
+							     	data: {
+							       		username:username,
+							       		password:password,
+							       		first_name:first_name.
+							       		last_name:last_name,
+							       		email_address:email_address,
+							       		platform:platform,
+							       		interest:interest
+							     	},
+							     	success: function (response) {
+							        	window.location.href = '<?php echo base_url('users/success/') ?>' + response
+							      
+							    	}
+							   });
+							}
+							
+							
+						}else{
+							alert("Please Provide Required Fields");
+						}
+						
 					});
 
 				});
@@ -367,18 +449,6 @@
 				{
 				    $(".lloading").text("Loading....");
 				    
-				   $.ajax({
-				     type: 'post',
-				     url: '<?php echo base_url("providers/getallDistrict");?>',
-				     data: {
-				       city:val
-				     },
-				     success: function (response) {
-				       //  alert(response);
-				       //document.getElementById("distrct_rep").innerHTML=response; 
-				       $("#distrct_rep").html(response);
-				       $(".lloading").text('done');
-				     }
-				   });
+				   
 				}
 				</script>
