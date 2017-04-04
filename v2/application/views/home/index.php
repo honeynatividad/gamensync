@@ -1,4 +1,4 @@
-<!-- Breadrumbs -->
+				<!-- Breadrumbs -->
 				<div class="content-group-lg border-top-lg border-red">
 					<div class="page-header page-header-default">
 						<div class="page-header-content1">
@@ -41,558 +41,594 @@
 
 										<!-- Game for Sale -->
 										<!-- Displays 10 items only -->
+										<div class="timeline-date text-muted">
+											 <a href="#"  class="text-white text-bold">GAME <span class="text-red text-bold"> FOR SALE</span></a>
+											<div class="heading-elements">
+												<span class="heading-text"><i class="icon-history position-left text-success"></i> Updated 3 hours ago</span> 
+											</div>
+										</div>
+										
 										<div class="timeline-row">
 											<div class="timeline-icon">
 												<div class="bg-red">
-													<i class="icon-basket"></i>
+													<i class="icon-basket text-shadow"></i>
 												</div>
 											</div>
-
-											<div class="panel panel-flat timeline-content">
-												<div class="panel-heading">
-													Game Accounts <span class="text-red"> For Sale</span>
-													<div class="heading-elements">
-														<span class="heading-text"><i class="icon-history position-left text-success"></i> Updated 3 hours ago</span>
-
-														<ul class="icons-list">
-															<li><a data-action="reload"></a></li>
-														</ul>
-													</div>
-												</div>
-												
-												<table class="table tasks-list table-xs table-togglable table-hover">
-													<thead>
-														<tr>
-															<th class="text-center" data-hide="phone">Image</th>
-															<th class="text-center" data-toggle="true">Game</th>
-															<th class="text-right" data-hide="phone,tablet">Level</th>
-															<th class="text-right" data-hide="phone,tablet">Platform</th>
-															<th class="text-right" data-hide="phone,tablet">User</th>
-															<th class="text-right" data-hide="phone,tablet">Status</th>
-															<th class="text-right" data-hide="phone,tablet">Trophy</th>
-															<th class="text-center">Price</th>
-															<th class="text-center">Actions</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>
-															<td class="text-center">
-																<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
-															</td >
-															<td class="text-width">
-																<a href="#" class="text-white text-left"> Wonder Tactics Wonder Tactics adfasdadasdawfdsf</a> 
-															</td>	
-															<td class="text-center">45</td>
-															<td class="text-center">
-																<a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</a>
-																<!--IOS-->
-																<!-- <a href="#"><i class="icon-apple3 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> Android</a></i></a>
-																-->
-																<!--/ios-->
-															</td>
-															<td class="text-center">
-																<a href="#" class="text-white"> Kirayuki</a> 
-															</td>
-															<td class="text-center"> 
-																<a href="#" class="label label-success" data-popup="tooltip" title="Member whose payment status  has been confirmed"> Verified</a>
-																
-																<!--Unverified-->
-																<!-- <a href="#" class="label label-default" data-popup="tooltip" title="Member whose payment status has NOT been confirmed"> Unverified</a>  -->
-																<!-- 1 completed transaction will result to verified status 
-																<!--/unverified-->
-															</td>
-															<td class="text-center">
-																<ul class="icons-list">
-																	<li><a href="#" data-popup="tooltip" title="Premium - membership status"><i class="icon-trophy3"></i></a></li>
-																	<li><a href="#" data-popup="tooltip" title="Verified - payment information has been verified"><i class="icon-trophy4"></i></a></li>
-																	<li><a href="#" data-popup="tooltip" title="Trusted Seller - 20+ successful transactions"><i class="icon-trophy3"></i></a></li>	 
-																</ul> 
-																
-																 
-																<!--Seller--> 
-																<!-- 1st place - highest transactions completed
-																<li><a href="#" data-popup="tooltip" title="Most Trusted Seller"><i class="icon-medal-first"></i></a></li>	
-																<!--/seller-->
-																
-																<!--No Trophy -->
-																<!-- <a class="text-muted"> NO TROPHY </a> -->
-																<!--/no trophy-->
-															</td>
-															<td class="text-center">
-																<span class="text-green"> $600 </span>
-															</td>
-															<td class="text-center">
-																<ul class="icons-list">
-																	<li><a href="#" data-popup="tooltip" data-container="body" title="View"><i class="text-teal icon-eye"></i></a></li>
-																	<li><a href="#" data-popup="tooltip" data-container="body" title="Add to cart"><i class="text-red icon-basket"></i></a></li>
-																	<li><a href="#" data-popup="tooltip" data-container="body" title="Add to wishlist"><i class="text-green icon-heart5"></i></a></li> 
-																</ul> 
-															</td>		
-														</tr>
-														
-														<tr>
-															<td class="text-center">
-																<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
-															</td >
-															<td class="text-width">
-																<a href="#" class="text-white text-left"> Wonder Tactics Wonder Tactics adfasdadasdawfdsf</a> 
-															</td>
-															<td class="text-center">45</td>
-															<td class="text-center">
-																<a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</a>
-																<!--IOS-->
-																<!-- <a href="#"><i class="icon-apple2 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> Android</a></i></a>
-																-->
-																<!--/ios-->
-															</td>
-															<td class="text-center">
-																<a href="#" class="text-white"> Kirayuki</a> 
-															</td>
-															<td class="text-center"> 
-																<a href="#" class="label label-success" data-popup="tooltip" title="Member whose payment has been confirmed"> Verified</a>
-																<!--Unverified-->
-																<!-- <a href="#" class="label label-default" data-popup="tooltip" title="Member whose payment has NOT been confirmed"> Unverified</a> 
-																 -->																	
-																<!--/unverified-->
-															</td>
-															<td class="text-center">
-																<ul class="icons-list">
-																	<li><a href="#" data-popup="tooltip" title="Premium - membership status"><i class="icon-trophy3"></i></a></li>
-																	<li><a href="#" data-popup="tooltip" title="Verified - payment information has been verified"><i class="icon-trophy4"></i></a></li>
-																	<li><a href="#" data-popup="tooltip" title="Trusted Seller - 20+ successful transactions"><i class="icon-trophy3"></i></a></li>	 
-																</ul>  
-															</td>
-															<td class="text-center">
-																<span class="text-green"> $600 </span>
-															</td>
-															<td class="text-center">
-																<ul class="icons-list">
-																	<li><a href="#" data-popup="tooltip" data-container="body" title="View"><i class="text-teal icon-eye"></i></a></li>
-																	<li><a href="#" data-popup="tooltip" data-container="body" title="Add to cart"><i class="text-red icon-basket"></i></a></li>
-																	<li><a href="#" data-popup="tooltip" data-container="body" title="Add to wishlist"><i class="text-green icon-heart5"></i></a></li> 
-																</ul> 
-															</td>		
-														</tr>
-														
-														<tr>
-															<td class="text-center">
-																<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
-															</td >
-															<td class="text-width">
-																<a href="#" class="text-white text-left"> Wonder Tactics Wonder Tactics adfasdadasdawfdsf</a> 
-															</td>
-															<td class="text-center">45</td>
-															<td class="text-center">
-																<a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</a>
-																<!--IOS-->
-																<!-- <a href="#"><i class="icon-apple2 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> Android</a></i></a>
-																-->
-																<!--/ios-->
-															</td>
-															<td class="text-center">
-																<a href="#" class="text-white"> Kirayuki</a> 
-															</td>
-															<td class="text-center"> 
-																<a href="#" class="label label-success" data-popup="tooltip" title="Member whose payment has been confirmed"> Verified</a>
-																<!--Unverified-->
-																<!-- <a href="#" class="label label-default" data-popup="tooltip" title="Member whose payment has NOT been confirmed"> Unverified</a> 
-																 -->																	
-																<!--/unverified-->
-															</td>
-															<td class="text-center">
-																<ul class="icons-list">
-																	<li><a href="#" data-popup="tooltip" title="Premium - membership status"><i class="icon-trophy3"></i></a></li>
-																	<li><a href="#" data-popup="tooltip" title="Verified - payment information has been verified"><i class="icon-trophy4"></i></a></li>
-																	<li><a href="#" data-popup="tooltip" title="Trusted Seller - 20+ successful transactions"><i class="icon-trophy3"></i></a></li>	 
-																</ul>  
-															</td>
-															<td class="text-center">
-																<span class="text-green"> $600 </span>
-															</td>
-															<td class="text-center">
-																<ul class="icons-list">
-																	<li><a href="#" data-popup="tooltip" data-container="body" title="View"><i class="text-teal icon-eye"></i></a></li>
-																	<li><a href="#" data-popup="tooltip" data-container="body" title="Add to cart"><i class="text-red icon-basket"></i></a></li>
-																	<li><a href="#" data-popup="tooltip" data-container="body" title="Add to wishlist"><i class="text-green icon-heart5"></i></a></li> 
-																</ul> 
-															</td>		
-														</tr>
-														
-														<tr>
-															<td class="text-center">
-																<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
-															</td >
-															<td class="text-width">
-																<a href="#" class="text-white text-left"> Wonder Tactics Wonder Tactics adfasdadasdawfdsf</a> 
-															</td>
-															<td class="text-center">45</td>
-															<td class="text-center">
-																<a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</a>
-																<!--IOS-->
-																<!-- <a href="#"><i class="icon-apple2 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> Android</a></i></a>
-																-->
-																<!--/ios-->
-															</td>
-															<td class="text-center">
-																<a href="#" class="text-white"> Kirayuki</a> 
-															</td>
-															<td class="text-center"> 
-																<a href="#" class="label label-success" data-popup="tooltip" title="Member whose payment has been confirmed"> Verified</a>
-																<!--Unverified-->
-																<!-- <a href="#" class="label label-default" data-popup="tooltip" title="Member whose payment has NOT been confirmed"> Unverified</a> 
-																 -->																	
-																<!--/unverified-->
-															</td>
-															<td class="text-center">
-																<ul class="icons-list">
-																	<li><a href="#" data-popup="tooltip" title="Premium - membership status"><i class="icon-trophy3"></i></a></li>
-																	<li><a href="#" data-popup="tooltip" title="Verified - payment information has been verified"><i class="icon-trophy4"></i></a></li>
-																	<li><a href="#" data-popup="tooltip" title="Trusted Seller - 20+ successful transactions"><i class="icon-trophy3"></i></a></li>	 
-																</ul>  
-															</td>
-															<td class="text-center">
-																<span class="text-green"> $600 </span>
-															</td>
-															<td class="text-center">
-																<ul class="icons-list">
-																	<li><a href="#" data-popup="tooltip" data-container="body" title="View"><i class="text-teal icon-eye"></i></a></li>
-																	<li><a href="#" data-popup="tooltip" data-container="body" title="Add to cart"><i class="text-red icon-basket"></i></a></li>
-																	<li><a href="#" data-popup="tooltip" data-container="body" title="Add to wishlist"><i class="text-green icon-heart5"></i></a></li> 
-																</ul> 
-															</td>		
-														</tr>
-														
-														<tr>
-															<td class="text-center">
-																<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
-															</td >
-															<td class="text-width">
-																<a href="#" class="text-white text-left"> Wonder Tactics Wonder Tactics adfasdadasdawfdsf</a> 
-															</td>
-															<td class="text-center">45</td>
-															<td class="text-center">
-																<a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</a>
-																<!--IOS-->
-																<!-- <a href="#"><i class="icon-apple2 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> Android</a></i></a>
-																-->
-																<!--/ios-->
-															</td>
-															<td class="text-center">
-																<a href="#" class="text-white"> Kirayuki</a> 
-															</td>
-															<td class="text-center"> 
-																<a href="#" class="label label-success" data-popup="tooltip" title="Member whose payment has been confirmed"> Verified</a>
-																<!--Unverified-->
-																<!-- <a href="#" class="label label-default" data-popup="tooltip" title="Member whose payment has NOT been confirmed"> Unverified</a> 
-																 -->																	
-																<!--/unverified-->
-															</td>
-															<td class="text-center">
-																<ul class="icons-list">
-																	<li><a href="#" data-popup="tooltip" title="Premium - membership status"><i class="icon-trophy3"></i></a></li>
-																	<li><a href="#" data-popup="tooltip" title="Verified - payment information has been verified"><i class="icon-trophy4"></i></a></li>
-																	<li><a href="#" data-popup="tooltip" title="Trusted Seller - 20+ successful transactions"><i class="icon-trophy3"></i></a></li>	 
-																</ul>  
-															</td>
-															<td class="text-center">
-																<span class="text-green"> $600 </span>
-															</td>
-															<td class="text-center">
-																<ul class="icons-list">
-																	<li><a href="#" data-popup="tooltip" data-container="body" title="View"><i class="text-teal icon-eye"></i></a></li>
-																	<li><a href="#" data-popup="tooltip" data-container="body" title="Add to cart"><i class="text-red icon-basket"></i></a></li>
-																	<li><a href="#" data-popup="tooltip" data-container="body" title="Add to wishlist"><i class="text-green icon-heart5"></i></a></li> 
-																</ul> 
-															</td>		
-														</tr>
-													</tbody>
-												</table>										
-											</div>
+ 
+											<table class="table tasks-list table-xs table-togglable table-hover">
+												<thead>
+													<tr>
+														<th class="text-center" data-hide="phone">Image</th>
+														<th class="text-center" data-toggle="true">Game</th>
+														<th class="text-left" data-hide="phone,tablet">Level</th>
+														<th class="text-left" data-hide="phone,tablet">Platform</th>
+														<th class="text-left" data-hide="phone,tablet">User</th>
+														<th class="text-left" data-hide="phone,tablet">Status</th>
+														<th class="text-left" data-hide="phone,tablet">Trophy</th>
+														<th class="text-center">Price</th>
+														<th class="text-center">Actions</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td class="text-center">
+															<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+														</td >
+														<td class="text-width">
+															<a href="#" class="text-white text-left"> Wonder Tactics Wonder Tactics adfasdadasdawfdsf</a> 
+														</td>	
+														<td class="text-center">45</td>
+														<td class="text-center">
+															<a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</a>
+															<!--IOS-->
+															<!-- <a href="#"><i class="icon-apple3 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> Android</a></i></a>
+															-->
+															<!--/ios-->
+														</td>
+														<td class="text-center">
+															<a href="#" class="text-white"> Kirayuki</a> 
+														</td>
+														<td class="text-center"> 
+															<a href="#" class="label label-success" data-popup="tooltip" title="Member whose payment status  has been confirmed"> Verified</a>
+															
+															<!--Unverified-->
+															<!-- <a href="#" class="label label-default" data-popup="tooltip" title="Member whose payment status has NOT been confirmed"> Unverified</a>  -->
+															<!-- 1 completed transaction will result to verified status 
+															<!--/unverified-->
+														</td>
+														<td class="text-center">
+															<ul class="icons-list">
+																<li><a href="#" data-popup="tooltip" title="Premium - membership status"><i class="icon-trophy3"></i></a></li>
+																<li><a href="#" data-popup="tooltip" title="Verified - payment information has been verified"><i class="icon-trophy4"></i></a></li>
+																<li><a href="#" data-popup="tooltip" title="Trusted Seller - 20+ successful transactions"><i class="icon-trophy3"></i></a></li>	 
+															</ul> 
+															
+															 
+															<!--Seller--> 
+															<!-- 1st place - highest transactions completed
+															<li><a href="#" data-popup="tooltip" title="Most Trusted Seller"><i class="icon-medal-first"></i></a></li>	
+															<!--/seller-->
+															
+															<!--No Trophy -->
+															<!-- <a class="text-muted"> NO TROPHY </a> -->
+															<!--/no trophy-->
+														</td>
+														<td class="text-center">
+															<span class="text-green"> $600 </span>
+														</td>
+														<td class="text-center">
+															<ul class="icons-list">
+																<li><a href="#" data-popup="tooltip" data-container="body" title="View"><i class="text-shadow text-muted icon-eye"></i></a></li>
+																<li><a href="#" data-popup="tooltip" data-container="body" title="Add to cart"><i class="text-shadow text-muted  icon-basket"></i></a></li>
+																<li><a href="#" data-popup="tooltip" data-container="body" title="Add to wishlist"><i class="text-shadow text-muted  icon-heart5"></i></a></li> 
+															</ul> 
+														</td>		
+													</tr>
+													
+													<tr>
+														<td class="text-center">
+															<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+														</td >
+														<td class="text-width">
+															<a href="#" class="text-white text-left"> Wonder Tactics Wonder Tactics adfasdadasdawfdsf</a> 
+														</td>
+														<td class="text-center">45</td>
+														<td class="text-center">
+															<a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</a>
+															<!--IOS-->
+															<!-- <a href="#"><i class="icon-apple2 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> Android</a></i></a>
+															-->
+															<!--/ios-->
+														</td>
+														<td class="text-center">
+															<a href="#" class="text-white"> Kirayuki</a> 
+														</td>
+														<td class="text-center"> 
+															<a href="#" class="label label-success" data-popup="tooltip" title="Member whose payment has been confirmed"> Verified</a>
+															<!--Unverified-->
+															<!-- <a href="#" class="label label-default" data-popup="tooltip" title="Member whose payment has NOT been confirmed"> Unverified</a> 
+															 -->																	
+															<!--/unverified-->
+														</td>
+														<td class="text-center">
+															<ul class="icons-list">
+																<li><a href="#" data-popup="tooltip" title="Premium - membership status"><i class="icon-trophy3"></i></a></li>
+																<li><a href="#" data-popup="tooltip" title="Verified - payment information has been verified"><i class="icon-trophy4"></i></a></li>
+																<li><a href="#" data-popup="tooltip" title="Trusted Seller - 20+ successful transactions"><i class="icon-trophy3"></i></a></li>	 
+															</ul>  
+														</td>
+														<td class="text-center">
+															<span class="text-green"> $600 </span>
+														</td>
+														<td class="text-center">
+															<ul class="icons-list">
+																<li><a href="#" data-popup="tooltip" data-container="body" title="View"><i class="text-teal icon-eye"></i></a></li>
+																<li><a href="#" data-popup="tooltip" data-container="body" title="Add to cart"><i class="text-red icon-basket"></i></a></li>
+																<li><a href="#" data-popup="tooltip" data-container="body" title="Add to wishlist"><i class="text-green icon-heart5"></i></a></li> 
+															</ul> 
+														</td>		
+													</tr>
+													
+													<tr>
+														<td class="text-center">
+															<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+														</td >
+														<td class="text-width">
+															<a href="#" class="text-white text-left"> Wonder Tactics Wonder Tactics adfasdadasdawfdsf</a> 
+														</td>
+														<td class="text-center">45</td>
+														<td class="text-center">
+															<a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</a>
+															<!--IOS-->
+															<!-- <a href="#"><i class="icon-apple2 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> Android</a></i></a>
+															-->
+															<!--/ios-->
+														</td>
+														<td class="text-center">
+															<a href="#" class="text-white"> Kirayuki</a> 
+														</td>
+														<td class="text-center"> 
+															<a href="#" class="label label-success" data-popup="tooltip" title="Member whose payment has been confirmed"> Verified</a>
+															<!--Unverified-->
+															<!-- <a href="#" class="label label-default" data-popup="tooltip" title="Member whose payment has NOT been confirmed"> Unverified</a> 
+															 -->																	
+															<!--/unverified-->
+														</td>
+														<td class="text-center">
+															<ul class="icons-list">
+																<li><a href="#" data-popup="tooltip" title="Premium - membership status"><i class="icon-trophy3"></i></a></li>
+																<li><a href="#" data-popup="tooltip" title="Verified - payment information has been verified"><i class="icon-trophy4"></i></a></li>
+																<li><a href="#" data-popup="tooltip" title="Trusted Seller - 20+ successful transactions"><i class="icon-trophy3"></i></a></li>	 
+															</ul>  
+														</td>
+														<td class="text-center">
+															<span class="text-green"> $600 </span>
+														</td>
+														<td class="text-center">
+															<ul class="icons-list">
+																<li><a href="#" data-popup="tooltip" data-container="body" title="View"><i class="text-teal icon-eye"></i></a></li>
+																<li><a href="#" data-popup="tooltip" data-container="body" title="Add to cart"><i class="text-red icon-basket"></i></a></li>
+																<li><a href="#" data-popup="tooltip" data-container="body" title="Add to wishlist"><i class="text-green icon-heart5"></i></a></li> 
+															</ul> 
+														</td>		
+													</tr>
+													
+													<tr>
+														<td class="text-center">
+															<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+														</td >
+														<td class="text-width">
+															<a href="#" class="text-white text-left"> Wonder Tactics Wonder Tactics adfasdadasdawfdsf</a> 
+														</td>
+														<td class="text-center">45</td>
+														<td class="text-center">
+															<a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</a>
+															<!--IOS-->
+															<!-- <a href="#"><i class="icon-apple2 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> Android</a></i></a>
+															-->
+															<!--/ios-->
+														</td>
+														<td class="text-center">
+															<a href="#" class="text-white"> Kirayuki</a> 
+														</td>
+														<td class="text-center"> 
+															<a href="#" class="label label-success" data-popup="tooltip" title="Member whose payment has been confirmed"> Verified</a>
+															<!--Unverified-->
+															<!-- <a href="#" class="label label-default" data-popup="tooltip" title="Member whose payment has NOT been confirmed"> Unverified</a> 
+															 -->																	
+															<!--/unverified-->
+														</td>
+														<td class="text-center">
+															<ul class="icons-list">
+																<li><a href="#" data-popup="tooltip" title="Premium - membership status"><i class="icon-trophy3"></i></a></li>
+																<li><a href="#" data-popup="tooltip" title="Verified - payment information has been verified"><i class="icon-trophy4"></i></a></li>
+																<li><a href="#" data-popup="tooltip" title="Trusted Seller - 20+ successful transactions"><i class="icon-trophy3"></i></a></li>	 
+															</ul>  
+														</td>
+														<td class="text-center">
+															<span class="text-green"> $600 </span>
+														</td>
+														<td class="text-center">
+															<ul class="icons-list">
+																<li><a href="#" data-popup="tooltip" data-container="body" title="View"><i class="text-teal icon-eye"></i></a></li>
+																<li><a href="#" data-popup="tooltip" data-container="body" title="Add to cart"><i class="text-red icon-basket"></i></a></li>
+																<li><a href="#" data-popup="tooltip" data-container="body" title="Add to wishlist"><i class="text-green icon-heart5"></i></a></li> 
+															</ul> 
+														</td>		
+													</tr>
+													
+													<tr>
+														<td class="text-center">
+															<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+														</td >
+														<td class="text-width">
+															<a href="#" class="text-white text-left"> Wonder Tactics Wonder Tactics adfasdadasdawfdsf</a> 
+														</td>
+														<td class="text-center">45</td>
+														<td class="text-center">
+															<a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</a>
+															<!--IOS-->
+															<!-- <a href="#"><i class="icon-apple2 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> Android</a></i></a>
+															-->
+															<!--/ios-->
+														</td>
+														<td class="text-center">
+															<a href="#" class="text-white"> Kirayuki</a> 
+														</td>
+														<td class="text-center"> 
+															<a href="#" class="label label-success" data-popup="tooltip" title="Member whose payment has been confirmed"> Verified</a>
+															<!--Unverified-->
+															<!-- <a href="#" class="label label-default" data-popup="tooltip" title="Member whose payment has NOT been confirmed"> Unverified</a> 
+															 -->																	
+															<!--/unverified-->
+														</td>
+														<td class="text-center">
+															<ul class="icons-list">
+																<li><a href="#" data-popup="tooltip" data-container="body" title="Premium - membership status"><i class="icon-trophy3"></i></a></li>
+																<li><a href="#" data-popup="tooltip" data-container="body" title="Verified - payment information has been verified"><i class="icon-trophy4"></i></a></li>
+																<li><a href="#" data-popup="tooltip" data-container="body" title="Trusted Seller - 20+ successful transactions"><i class="icon-trophy3"></i></a></li>	 
+															</ul>  
+														</td>
+														<td class="text-center">
+															<span class="text-green"> $600 </span>
+														</td>
+														<td class="text-center">
+															<ul class="icons-list">
+																<li><a href="#" data-popup="tooltip" data-container="body" title="View"><i class="text-teal icon-eye"></i></a></li>
+																<li><a href="#" data-popup="tooltip" data-container="body" title="Add to cart"><i class="text-red icon-basket"></i></a></li>
+																<li><a href="#" data-popup="tooltip" data-container="body" title="Add to wishlist"><i class="text-green icon-heart5"></i></a></li> 
+															</ul> 
+														</td>		
+													</tr>
+												</tbody>
+											</table>										
 										</div>
 										<!-- /game for sale -->
 
 
 										<!-- Game Pilot -->
-										<div class="timeline-row">
-											<div class="timeline-icon">
-												<img src="assets/images/placeholder.jpg" alt="">
-											</div>
-
-											<div class="panel panel-flat timeline-content">
-												<div class="panel-heading">
-													Game<span class="text-red"> Pilot</span>
-													<div class="heading-elements">
-														<span class="heading-text"><i class="icon-history position-left text-success"></i> Updated 3 hours ago</span>
-
-														<ul class="icons-list">
-															<li><a data-action="reload"></a></li>
-														</ul>
-													</div>
-												</div>
-
-												<div class="panel-body">
-													<div class="col-sm-12 col-lg-6">
-														<div class="panel panel-flat">
-															<div class="panel-heading">
-																<h6 class="panel-title">Game Pilot Activities</h6>
-																<div class="heading-elements">
-																	<ul class="icons-list">
-																		<li><a data-action="reload"></a></li>
-																	</ul>
-																</div>
-															</div>
-
-
-																<div class="panel-body">
-																	<ul class="media-list">
-																		<li class="media">
-																			<div class="media-left">
-																				<a href="#" class="btn border-primary text-primary btn-flat btn-icon btn-rounded btn-sm">
-																					<i class="icon-spinner11"></i>
-																				</a>
-																			</div>
-
-																			<div class="media-body">
-																				<a href="#">Yukiirie</a> requested game pilot for <strong><a href="#"> Devil Breaker </strong></a> 
-																				<div class="media-annotation">12 minutes ago</div>
-																			</div>
-																		</li>
-
-																		<li class="media">
-																			<div class="media-left">
-																				<a href="#" class="btn border-danger text-danger btn-flat btn-icon btn-rounded btn-sm">
-																					<i class="icon-infinite"></i>
-																				</a>
-																			</div>
-
-																			<div class="media-body">
-																				User <a href="#">Christopher Wallace</a> is awaiting for staff reply
-																				<div class="media-annotation">16 minutes ago</div>
-																			</div>
-																		</li>
-
-																		<li class="media">
-																			<div class="media-left">
-																				<a href="#" class="btn border-slate text-slate btn-flat btn-icon btn-rounded btn-sm">
-																					<i class="icon-cash3"></i>
-																				</a>
-																			</div>
-
-																			<div class="media-body">
-																				All sellers have received monthly payouts
-																				<div class="media-annotation">4 hours ago</div>
-																			</div>
-																		</li>
-																		
-																		<li class="media">
-																			<div class="media-left">
-																				<a href="#" class="btn border-slate text-slate btn-flat btn-icon btn-rounded btn-sm">
-																					<i class="icon-cash3"></i>
-																				</a>
-																			</div>
-
-																			<div class="media-body">
-																				All sellers have received monthly payouts
-																				<div class="media-annotation">4 hours ago</div>
-																			</div>
-																		</li>
-																		
-																		<li class="media">
-																			<div class="media-left">
-																				<a href="#" class="btn border-slate text-slate btn-flat btn-icon btn-rounded btn-sm">
-																					<i class="icon-cash3"></i>
-																				</a>
-																			</div>
-
-																			<div class="media-body">
-																				All sellers have received monthly payouts
-																				<div class="media-annotation">4 hours ago</div>
-																			</div>
-																		</li>
-																		
-																		<li class="media">
-																			<div class="media-left">
-																				<a href="#" class="btn border-slate text-slate btn-flat btn-icon btn-rounded btn-sm">
-																					<i class="icon-cash3"></i>
-																				</a>
-																			</div>
-
-																			<div class="media-body">
-																				All sellers have received monthly payouts
-																				<div class="media-annotation">4 hours ago</div>
-																			</div>
-																		</li>
-
-																		<li class="media">
-																			<div class="media-left">
-																				<a href="#" class="btn border-success text-success btn-flat btn-icon btn-rounded btn-sm">
-																					<i class="icon-checkmark3"></i>
-																				</a>
-																			</div>
-																			
-																			<div class="media-body">
-																				Ticket #43683 has been closed by <a href="#">Victoria Wilson</a> 
-																				<div class="media-annotation">Apr 28, 21:39</div>
-																			</div>
-																		</li>
-																	</ul>
-																</div>
-															</div>
-														</div>	
-												</div>
-
-												 
+										<div class="timeline-date text-muted margin-top-20">
+											 <a href="#" class="text-white text-bold">GAME <span class="text-red text-bold"> PILOT</span></a>
+											<div class="heading-elements">
+												<span class="heading-text"><i class="icon-history position-left text-success"></i> Updated 3 hours ago</span> 
 											</div>
 										</div>
+										
+										<div class="timeline-row">
+											<div class="timeline-icon">
+												<div class="bg-red">
+													<i class="icon-airplane3 text-shadow"></i>
+												</div>
+											</div> 
+											
+											<div class="row">
+												<div class="col-xs-12 col-lg-6">
+												 
+													<div class="panel panel-flat">
+														<div class="panel-heading">
+															<h6 class="panel-title">Game Pilot Activities</h6>
+															<div class="heading-elements">
+																<ul class="icons-list">
+																	<li><a data-action="reload"></a></li>
+																</ul>
+															</div>
+														</div> 
+														
+														<!-- 4 types of activitie: Pilot request, Request accepted, Request listing, Transaction completion -->
+														<div class="panel-body">
+															<ul class="media-list">
+																
+																<li class="media">
+																	<div class="media-left">
+																		<a href="#" class="btn border-success text-success btn-flat btn-icon btn-rounded btn-sm">
+																			<i class="icon-store"></i>
+																		</a>
+																	</div>
+																	
+																	<div class="media-body">
+																		<a href="#">Yukiirie</a> is now accepting pilot for <a href="#"> Another World </a> on
+																		<div class="media-annotation">Apr 21-25, 6:00-9:00 EST</div> 
+																	</div>
+																</li>
+																
+																<li class="media">
+																	<div class="media-left">
+																		<a href="#" class="btn border-primary text-primary btn-flat btn-icon btn-rounded btn-sm">
+																			<i class="icon-spinner11"></i>
+																		</a>
+																	</div>
+
+																	<div class="media-body">
+																		<a href="#">Yukiirie</a> requested pilot for <a href="#"> Devil Breaker</a> on
+																		<div class="media-annotation">Apr 28, 21:00 EST</div> 
+																	</div>
+																</li>
+
+																<li class="media">
+																	<div class="media-left">
+																		<a href="#" class="btn border-danger text-danger btn-flat btn-icon btn-rounded btn-sm">
+																			<i class="icon-infinite"></i>
+																		</a>
+																	</div>
+
+																	<div class="media-body">
+																		Pilot <a href="#">Christopher Wallace</a> has accepted a pilot request for  <a href="#"> Devil Breaker</a>
+																		<div class="media-annotation">16 minutes ago</div>
+																	</div>
+																</li>  
+																
+																<li class="media">
+																	<div class="media-left">
+																		<a href="#" class="btn border-success text-success btn-flat btn-icon btn-rounded btn-sm">
+																			<i class="icon-checkmark3"></i>
+																		</a>
+																	</div>
+																	
+																	<div class="media-body">
+																		Pilot <a href="#">Yukiirie</a> has completed piloting for<a href="#"> Kirayuki</a> on
+																		<div class="media-annotation">Apr 23, 5:00 EST</div> 
+																	</div>
+																</li>
+															</ul>
+														</div>
+													</div> 
+												</div>
+												
+												<div class="col-s-12 col-lg-6">  
+													<div class="panel panel-flat">
+														<div class="panel-heading">
+															<h6 class="panel-title">Request Pilot</h6>
+
+															<div class="heading-elements">
+																<form class="heading-form" action="#">
+																	<div class="form-group">
+																		<label class="checkbox-inline checkbox-right checkbox-switchery switchery-xs">
+																			<input type="checkbox" class="switchery" checked="checked">
+																			Notify (?)
+																		</label>
+																	</div>
+																</form>
+															</div>
+														</div>
+
+														<form class="panel-body" action="#">
+															<div class="form-group has-feedback">
+																<input type="text" class="form-control" placeholder="Your email">
+																<div class="form-control-feedback">
+																	<i class="icon-mention text-muted"></i>
+																</div>
+															</div>
+
+															<div class="form-group">
+																<select data-placeholder="Subscription plan" class="select">
+																	<option value="monday"> Monday</option>
+																	<option value="tuesday"> Tuesday</option> 
+																	<option value="wednesday"> Wednesday</option> 
+																	<option value="thursday"> Thursday</option> 
+																	<option value="friday"> Friday</option> 
+																	<option value="saturday"> Saturday</option> 
+																	<option value="sunday"> Sunday</option> 
+																</select>
+															</div>
+
+															<div class="form-group">
+																<textarea class="form-control" cols="3" rows="3" placeholder="Message to the pilot"></textarea>
+															</div>
+
+															<div class="row">
+																<div class="col-xs-6">
+																	<div class="checkbox">
+																		<label class="checkbox-inline">
+																			<input type="checkbox" class="styled" checked="checked">
+																			Agree to <a href="#">Terms & Conditions </a>
+																		</label>
+																	</div>
+																</div>
+
+																<div class="col-xs-6 text-right">
+																	<button type="submit" class="btn bg-red">Request</button>
+																</div>
+															</div>
+														</form>
+													</div>
+												</div>
+												
+											</div>
+										</div> 
 										<!-- /game pilot -->
 										
 										<!-- New Game -->
-										<div class="timeline-date text-muted">
-											<i class="icon-android position-left"></i>NEW ANDROID GAME
+										<div class="timeline-date text-muted text-center">
+											<i class="icon-spinner4 position-left text-shadow text-red"></i><a href="#"  class="text-white text-bold">NEW <span class="text-red text-bold"> GAMES</span></a>
 										</div>
 										
 										<div class="timeline-row">
 											<div class="timeline-icon">
-												<img src="assets/images/placeholder.jpg" alt="">
+												<div class="bg-red">
+													<i class="icon-android text-shadow"></i>
+												</div>
 											</div>
 
 											<div class="row">
-												<div class="col-md-6 col-lg-3">
-													<div class="panel border-left-lg border-left-success timeline-content">
+												<div class="col-xs-6 col-lg-3">
+													<div class="panel border-left-lg border-left-danger timeline-content">
 														<div class="panel-body">
 															<a href="#" class="display-block content-group">
 																<img src="assets/images/placeholder.jpg" class="img-responsive content-group" alt="">
 															</a> 
 															<div class="text-center">
-																<h6 class="no-margin-top"><a href="task_manager_detailed.html">Magic Slayer</a></h6>		
+																<p class="no-margin-top text-uppercase"><a href="task_manager_detailed.html" class="text-white">Magic Slayer</a></p>		
 																<a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</span></a>
+																<!-- <a href="#"><i class="icon-apple2 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> IOS</span></a> -->
 															</div>
 														</div>
-														<div class="panel-footer panel-footer-condensed"> 
-															<div class="heading-elements">
-																<span class=" heading-text text-grey position-right">Roleplaying</span>
+														
+														
+														<div class="panel-footer panel-footer-condensed1">
+															<div class="col-xs-6">
+																<a href="#" class="heading-text text-grey">Roleplaying</a>
+															</div>
 
+															<div class="col-xs-6">
 																<ul class="list-inline list-inline-condensed heading-text pull-right">
-																	<li class="dropdown">
-																		<a href="#" class="text-white dropdown-toggle" data-toggle="dropdown"><i class="icon-menu7"></i> <span class="caret"></span></a>
-																		<ul class="dropdown-menu dropdown-menu-right">
-																			<li><a href="#"><i class="icon-heart5"></i> Like </a></li>
-																			<li><a href="#"><i class="icon-basket"></i> Account for Sale </a></li>
-																			<li><a href="#"><i class="icon-info3"></i> Tips & Hints</a></li>
-																			<li><a href="#"><i class="icon-plus3"></i> Add to wishlist  </a></li>
-																		</ul>
-																	</li>
-																</ul>
-															</div>
-														</div>
+																<li class="dropdown dropdown-menu-sm">
+																	<a href="#" class="text-white dropdown-toggle" data-toggle="dropdown"><i class="icon-menu7"></i></a>
+																	<ul class="dropdown-menu dropdown-menu-right">
+																		<li><a href="#"><i class="icon-heart5"></i> Like </a></li>
+																		<li><a href="#"><i class="icon-plus3"></i> Add to wishlist  </a></li>
+																		<li><a href="#"><i class="icon-bubble-lines4"></i> Review this game</a></li>
+																		<li><a href="#"><i class="icon-basket"></i> Account for Sale </a></li>
+																		<li><a href="#"><i class="icon-info3"></i> Tips & Hints</a></li>																		
+																	</ul>
+																</li>
+															</ul>
+															</div> 
+														</div> 
 													</div>
 												</div>
 
-												<div class="col-md-6 col-lg-3">
-													<div class="panel border-left-lg border-left-success timeline-content">
+												<div class="col-xs-6 col-lg-3">
+													<div class="panel border-left-lg border-left-danger timeline-content">
 														<div class="panel-body">
 															<a href="#" class="display-block content-group">
 																<img src="assets/images/placeholder.jpg" class="img-responsive content-group" alt="">
 															</a> 
 															<div class="text-center">
-																<h6 class="no-margin-top"><a href="task_manager_detailed.html">Magic Slayer</a></h6>		
-																<a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</span></a>
+																<p class="no-margin-top text-uppercase"><a href="task_manager_detailed.html" class="text-white">Magic Slayer</a></p>		
+																<a href="#"><i class="icon-apple2 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> IOS</span></a>
 															</div>
 														</div>
-														<div class="panel-footer panel-footer-condensed"><a class="heading-elements-toggle"><i class="icon-more"></i></a>
-															<div class="heading-elements">
-																<span class=" heading-text text-grey position-right">Roleplaying</span>
+														
+														
+														<div class="panel-footer panel-footer-condensed1">
+															<div class="col-xs-6">
+																<a href="#" class="heading-text text-grey">Roleplaying</a>
+															</div>
 
+															<div class="col-xs-6">
 																<ul class="list-inline list-inline-condensed heading-text pull-right">
-																	<li class="dropdown">
-																		<a href="#" class="text-white dropdown-toggle" data-toggle="dropdown"><i class="icon-menu7"></i> <span class="caret"></span></a>
-																		<ul class="dropdown-menu dropdown-menu-right">
-																			<li><a href="#"><i class="icon-heart5"></i> Like </a></li>
-																			<li><a href="#"><i class="icon-basket"></i> Account for Sale </a></li>
-																			<li><a href="#"><i class="icon-info3"></i> Tips & Hints</a></li>
-																			<li><a href="#"><i class="icon-plus3"></i> Add to wishlist  </a></li>
-																		</ul>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</div>
-												
-												<div class="col-md-6 col-lg-3">
-													<div class="panel border-left-lg border-left-success timeline-content">
-														<div class="panel-body">
-															<a href="#" class="display-block content-group">
-																<img src="assets/images/placeholder.jpg" class="img-responsive content-group" alt="">
-															</a> 
-															<div class="text-center">
-																<h6 class="no-margin-top"><a href="task_manager_detailed.html">Magic Slayer</a></h6>		
-																<a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</span></a>
-															</div>
-														</div>
-														<div class="panel-footer panel-footer-condensed"><a class="heading-elements-toggle"><i class="icon-more"></i></a>
-															<div class="heading-elements">
-																<span class=" heading-text text-grey position-right">Roleplaying</span>
-
-																<ul class="list-inline list-inline-condensed heading-text pull-right">
-																	<li class="dropdown">
-																		<a href="#" class="text-white dropdown-toggle" data-toggle="dropdown"><i class="icon-menu7"></i> <span class="caret"></span></a>
-																		<ul class="dropdown-menu dropdown-menu-right">
-																			<li><a href="#"><i class="icon-heart5"></i> Like </a></li>
-																			<li><a href="#"><i class="icon-basket"></i> Account for Sale </a></li>
-																			<li><a href="#"><i class="icon-info3"></i> Tips & Hints</a></li>
-																			<li><a href="#"><i class="icon-plus3"></i> Add to wishlist  </a></li>
-																		</ul>
-																	</li>
-																</ul>
-															</div>
-														</div>
+																<li class="dropdown dropdown-menu-sm">
+																	<a href="#" class="text-white dropdown-toggle" data-toggle="dropdown"><i class="icon-menu7"></i></a>
+																	<ul class="dropdown-menu dropdown-menu-right">
+																		<li><a href="#"><i class="icon-heart5"></i> Like </a></li>
+																		<li><a href="#"><i class="icon-plus3"></i> Add to wishlist  </a></li>
+																		<li><a href="#"><i class="icon-bubble-lines4"></i> Review this game</a></li>
+																		<li><a href="#"><i class="icon-basket"></i> Account for Sale </a></li>
+																		<li><a href="#"><i class="icon-info3"></i> Tips & Hints</a></li>																		
+																	</ul>
+																</li>
+															</ul>
+															</div> 
+														</div> 
 													</div>
 												</div>
 												
-												<div class="col-md-6 col-lg-3">
-													<div class="panel border-left-lg border-left-success timeline-content">
+												<div class="col-xs-6 col-lg-3">
+													<div class="panel border-left-lg border-left-danger timeline-content">
 														<div class="panel-body">
 															<a href="#" class="display-block content-group">
 																<img src="assets/images/placeholder.jpg" class="img-responsive content-group" alt="">
 															</a> 
 															<div class="text-center">
-																<h6 class="no-margin-top"><a href="task_manager_detailed.html">Magic Slayer</a></h6>		
+																<p class="no-margin-top text-uppercase"><a href="task_manager_detailed.html" class="text-white">Magic Slayer</a></p>		
 																<a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</span></a>
+																<!-- <a href="#"><i class="icon-apple2 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> IOS</span></a> -->
 															</div>
 														</div>
-														<div class="panel-footer panel-footer-condensed"><a class="heading-elements-toggle"><i class="icon-more"></i></a>
-															<div class="heading-elements">
-																<span class=" heading-text text-grey position-right">Roleplaying</span>
+														
+														
+														<div class="panel-footer panel-footer-condensed1">
+															<div class="col-xs-6">
+																<a href="#" class="heading-text text-grey">Roleplaying</a>
+															</div>
 
+															<div class="col-xs-6">
 																<ul class="list-inline list-inline-condensed heading-text pull-right">
-																	<li class="dropdown">
-																		<a href="#" class="text-white dropdown-toggle" data-toggle="dropdown"><i class="icon-menu7"></i> <span class="caret"></span></a>
+																<li class="dropdown dropdown-menu-sm">
+																	<a href="#" class="text-white dropdown-toggle" data-toggle="dropdown"><i class="icon-menu7"></i></a>
+																	<ul class="dropdown-menu dropdown-menu-right">
+																		<li><a href="#"><i class="icon-heart5"></i> Like </a></li>
+																		<li><a href="#"><i class="icon-plus3"></i> Add to wishlist  </a></li>
+																		<li><a href="#"><i class="icon-bubble-lines4"></i> Review this game</a></li>
+																		<li><a href="#"><i class="icon-basket"></i> Account for Sale </a></li>
+																		<li><a href="#"><i class="icon-info3"></i> Tips & Hints</a></li>																		
+																	</ul>
+																</li>
+															</ul>
+															</div> 
+														</div> 
+													</div>
+												</div>
+
+												<div class="col-xs-6 col-lg-3">
+													<div class="panel border-left-lg border-left-danger timeline-content">
+														<div class="panel-body">
+															<a href="#" class="display-block content-group">
+																<img src="assets/images/placeholder.jpg" class="img-responsive content-group" alt="">
+															</a> 
+															<div class="text-center">
+																<p class="no-margin-top text-uppercase"><a href="task_manager_detailed.html" class="text-white">Magic Slayer</a></p>			
+																<a href="#"><i class="icon-apple2 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> IOS</span></a>
+															</div>
+														</div>
+														
+														
+														<div class="panel-footer panel-footer-condensed1">
+															<div class="col-xs-6">
+																<a href="#" class="heading-text text-grey">Roleplaying</a>
+															</div>
+
+															<div class="col-xs-6">
+																<ul class="list-inline list-inline-condensed heading-text pull-right">
+																	<li class="dropdown dropdown-menu-sm">
+																		<a href="#" class="text-white dropdown-toggle" data-toggle="dropdown"><i class="icon-menu7"></i></a>
 																		<ul class="dropdown-menu dropdown-menu-right">
 																			<li><a href="#"><i class="icon-heart5"></i> Like </a></li>
-																			<li><a href="#"><i class="icon-basket"></i> Account for Sale </a></li>
-																			<li><a href="#"><i class="icon-info3"></i> Tips & Hints</a></li>
 																			<li><a href="#"><i class="icon-plus3"></i> Add to wishlist  </a></li>
+																			<li><a href="#"><i class="icon-bubble-lines4"></i> Review this game</a></li>
+																			<li><a href="#"><i class="icon-basket"></i> Account for Sale </a></li>
+																			<li><a href="#"><i class="icon-info3"></i> Tips & Hints</a></li>																		
 																		</ul>
 																	</li>
 																</ul>
-															</div>
-														</div>
+															</div> 
+														</div> 
 													</div>
 												</div>
+
 											</div>
 										</div>
 										<!-- /new game -->		
 
-										<!-- Game Spotlight -->								
-										<div class="timeline-date text-muted">
-											<i class="icon-quill2 position-left"></i>GAME SPOTLIGHT 
-										</div>
+										<!-- Game Spotlight -->			
+										<div class="timeline-date text-muted text-center">
+											<i class="icon-quill2 position-left text-shadow text-red"></i><a href="#" class="text-white text-bold">GAME <span class="text-red text-bold"> SPOTLIGHT</span></a>
+										</div>		 
 										
 										<div class="timeline-row">
 											<div class="timeline-icon">
 												<div class="bg-success-400">
-													<i class="icon-pen"></i>
+													<i class="icon-pen text-shadow"></i>
 												</div>
 											</div>
 
@@ -606,7 +642,7 @@
 																<ul class="icons-list">
 																	<li class="dropdown">
 																		<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-																			<i class="icon-arrow-down12"></i>
+																			<i class="icon-arrow-down12 text-shadow"></i>
 																		</a>
 
 																		<ul class="dropdown-menu dropdown-menu-right">
@@ -629,7 +665,7 @@
 															</a>
 															<ul class="list-inline list-inline-separate text-muted content-group">
 																<li>By <a href="#" class="text-muted">Kirayuki</a></li>
-																<li><a href="#" class="text-muted">12 comments</a></li>
+																<li><a href="#" class="text-muted">Roleplaying</a></li>
 																<li><a href="#" class="text-muted"><i class="icon-heart5 text-size-base text-pink position-left"></i> 281</a></li>
 																<li><a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</span></a></a></li>
 																<!-- <li><a href="#"><i class="icon-apple3 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> Android</span></a></a></li> -->
@@ -641,24 +677,27 @@
 																<footer>Kirayuki, <cite title="Source Title">10:39 am</cite></footer>
 															</blockquote> 
 														</div>
+														
 
-														<div class="panel-footer panel-footer-transparent"><a class="heading-elements-toggle"><i class="icon-more"></i></a>
-															<div class="heading-elements">
+														<div class="panel-footer panel-footer-condensed2">  
+															<div class="col-xs-9">
 																<ul class="list-inline list-inline-condensed heading-text">
-																	<li>
-																		<i class="icon-star-full2 text-size-base text-warning-300"></i>
-																		<i class="icon-star-full2 text-size-base text-warning-300"></i>
-																		<i class="icon-star-full2 text-size-base text-warning-300"></i>
-																		<i class="icon-star-full2 text-size-base text-warning-300"></i>
-																		<i class="icon-star-half text-size-base text-warning-300"></i>
+																	<li  data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="4.5 stars">
+																		<i class="icon-star-full2 text-size-base text-shadow text-red"></i>
+																		<i class="icon-star-full2 text-size-base text-shadow text-red"></i>
+																		<i class="icon-star-full2 text-size-base text-shadow text-red"></i>
+																		<i class="icon-star-full2 text-size-base text-shadow text-red"></i>
+																		<!-- Half STAR: icon-star-half | Empty STAR: icon-star-empty3 -->
+																		<i class="icon-star-half text-size-base text-shadow text-red"></i>
 																		<span class="text-muted position-right">(12)</span>
 																	</li>
-																	<li><a href="#" class="text-muted"><i class="icon-eye4 position-left"></i> 71</a></li>
+																	<li><a href="#" class="text-muted"><i class="icon-eye4 text-red position-left"></i> 71</a></li>
 																</ul>
-
-																<span class="heading-btn pull-right">
-																	<a href="#" class="btn btn-link">Read post <i class="icon-arrow-right14 position-right"></i></a>
-																</span>
+															</div>	
+															<div class="col-xs-3">
+																<a href="#" class="heading-btn pull-right btn btn-link no-padding">Read review
+																	<i class="icon-arrow-right14 text-red position-right"></i> 
+																</a>
 															</div>
 														</div>
 													</div>
@@ -673,7 +712,7 @@
 																<ul class="icons-list">
 																	<li class="dropdown">
 																		<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-																			<i class="icon-arrow-down12"></i>
+																			<i class="text-shadow icon-arrow-down12"></i>
 																		</a>
 
 																		<ul class="dropdown-menu dropdown-menu-right">
@@ -696,7 +735,7 @@
 															</a>
 															<ul class="list-inline list-inline-separate text-muted content-group">
 																<li>By <a href="#" class="text-muted">Eugene</a></li>
-																<li><a href="#" class="text-muted">12 comments</a></li>
+																<li><a href="#" class="text-muted">Strategy</a></li>
 																<li><a href="#" class="text-muted"><i class="icon-heart5 text-size-base text-pink position-left"></i> 281</a></li>
 																<li><a href="#"><i class="icon-apple2 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> IOS</span></a></a></li>
 															</ul>  
@@ -708,23 +747,25 @@
 															</blockquote> 
 														</div>
 
-														<div class="panel-footer panel-footer-transparent"><a class="heading-elements-toggle"><i class="icon-more"></i></a>
-															<div class="heading-elements">
+														<div class="panel-footer panel-footer-condensed2">  
+															<div class="col-xs-9">
 																<ul class="list-inline list-inline-condensed heading-text">
-																	<li>
-																		<i class="icon-star-full2 text-size-base text-warning-300"></i>
-																		<i class="icon-star-full2 text-size-base text-warning-300"></i>
-																		<i class="icon-star-full2 text-size-base text-warning-300"></i>
-																		<i class="icon-star-full2 text-size-base text-warning-300"></i>
-																		<i class="icon-star-half text-size-base text-warning-300"></i>
-																		<span class="text-muted position-right">(12)</span>
+																	<li  data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="3 stars">
+																		<i class="icon-star-full2 text-size-base text-shadow text-red"></i>
+																		<i class="icon-star-full2 text-size-base text-shadow text-red"></i>
+																		<i class="icon-star-full2 text-size-base text-shadow text-red"></i>
+																		<i class="icon-star-empty3 text-size-base text-shadow text-red"></i>
+																		<!-- Half STAR: icon-star-half | Empty STAR: icon-star-empty3 -->
+																		<i class="icon-star-empty3 text-size-base text-shadow text-red"></i>
+																		<span class="text-muted position-right">(32)</span>
 																	</li>
-																	<li><a href="#" class="text-muted"><i class="icon-eye4 position-left"></i> 71</a></li>
+																	<li><a href="#" class="text-muted"><i class="icon-eye4 text-red position-left"></i> 2,430</a></li>
 																</ul>
-
-																<span class="heading-btn pull-right">
-																	<a href="#" class="btn btn-link">Read post <i class="icon-arrow-right14 position-right"></i></a>
-																</span>
+															</div>	
+															<div class="col-xs-3">
+																<a href="#" class="heading-btn pull-right btn btn-link no-padding">Read review
+																	<i class="icon-arrow-right14 position-right"></i> 
+																</a>
 															</div>
 														</div>
 													</div>
@@ -735,19 +776,19 @@
 										
 										
 										<!-- Hall of Fame -->
-										<div class="timeline-date text-muted">
-											<i class="icon-trophy3 position-left"></i> <span class="text-semibold">HALL</span> OF FAME
-										</div>
+										<div class="timeline-date text-muted text-center">
+											<i class="icon-trophy3 position-left text-shadow text-red"></i><a href="#"  class="text-white text-bold">HALL OF <span class="text-red text-bold"> FAME</span></a>
+										</div> 
 																	
 										<div class="timeline-row">
 											<div class="timeline-icon">
 												<div class="bg-warning-400">
-													<i class="icon-trophy3"></i>
+													<i class="icon-trophy3 text-shadow"></i>
 												</div>
 											</div>
 
 											<div class="row">
-												<div class="col-sm-6 col-lg-4">
+												<div class="col-xs-4 col-lg-4">
 												 	<div class="panel">
 														<div class="panel-body text-center">
 															<a href="#" class="display-inline-block">
@@ -755,7 +796,7 @@
 															</a>
 
 															<h6 class="text-semibold no-margin-bottom">
-																<a href="#" class="text-default">Kiramarie</a>
+																<a href="#" class="text-white">Kiramarie</a>
 																<small class="display-block">Most Trusted Seller</small>
 															</h6>
 														</div>
@@ -763,26 +804,26 @@
 														<div class="panel-footer text-center no-padding">
 															<div class="row">
 																<div class="col-xs-3">
-																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="Google Drive"><i class="icon-google-drive"></i></a>
+																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="See profile"><i class="text-shadow text-red icon-eye-plus"></i></a>
 																</div>
 
 																<div class="col-xs-3">
-																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="Twitter"><i class="icon-twitter"></i></a>
+																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="Add friend"><i class="text-shadow text-red icon-user-plus"></i></a>
 																</div>
 
 																<div class="col-xs-3">
-																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="Github"><i class="icon-github"></i></a>
+																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="Send message"><i class="text-shadow text-red icon-envelop3"></i></a>
 																</div>
 
 																<div class="col-xs-3">
-																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="Dribbble"><i class="icon-dribbble"></i></a>
+																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="Report user"><i class="text-shadow text-red icon-user-block"></i></a>
 																</div>
 															</div>
 														</div>
 													</div> 
 												</div>
 
-												<div class="col-sm-6 col-lg-4">
+												<div class="col-xs-4 col-lg-4">
 												 	<div class="panel">
 														<div class="panel-body text-center">
 															<a href="#" class="display-inline-block">
@@ -790,7 +831,7 @@
 															</a>
 
 															<h6 class="text-semibold no-margin-bottom">
-																<a href="#" class="text-default">Yuki</a>
+																<a href="#" class="text-white">Yuki</a>
 																<small class="display-block">Best Game Pilot</small>
 															</h6>
 														</div>
@@ -798,26 +839,26 @@
 														<div class="panel-footer text-center no-padding">
 															<div class="row">
 																<div class="col-xs-3">
-																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="Google Drive"><i class="icon-google-drive"></i></a>
+																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="See profile"><i class="text-shadow text-red icon-eye-plus"></i></a>
 																</div>
 
 																<div class="col-xs-3">
-																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="Twitter"><i class="icon-twitter"></i></a>
+																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="Add friend"><i class="text-shadow text-red icon-user-plus"></i></a>
 																</div>
 
 																<div class="col-xs-3">
-																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="Github"><i class="icon-github"></i></a>
+																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="Send message"><i class="text-shadow text-red icon-envelop3"></i></a>
 																</div>
 
 																<div class="col-xs-3">
-																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="Dribbble"><i class="icon-dribbble"></i></a>
+																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="Report user"><i class="text-shadow text-red icon-user-block"></i></a>
 																</div>
 															</div>
 														</div>
 													</div> 
 												</div>
 												
-												<div class="col-sm-6 col-lg-4">
+												<div class="col-xs-4 col-lg-4">
 												 	<div class="panel">
 														<div class="panel-body text-center">
 															<a href="#" class="display-inline-block">
@@ -825,7 +866,7 @@
 															</a>
 
 															<h6 class="text-semibold no-margin-bottom">
-																<a href="#" class="text-default">Konsumi</a>
+																<a href="#" class="text-white">Konsumi</a>
 																<small class="display-block">Top Reviewer</small>
 															</h6>
 														</div>
@@ -833,19 +874,19 @@
 														<div class="panel-footer text-center no-padding">
 															<div class="row">
 																<div class="col-xs-3">
-																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="Google Drive"><i class="icon-google-drive"></i></a>
+																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="See profile"><i class="text-shadow text-red icon-eye-plus"></i></a>
 																</div>
 
 																<div class="col-xs-3">
-																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="Twitter"><i class="icon-twitter"></i></a>
+																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="Add friend"><i class="text-shadow text-red icon-user-plus"></i></a>
 																</div>
 
 																<div class="col-xs-3">
-																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="Github"><i class="icon-github"></i></a>
+																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="Send message"><i class="text-shadow text-red icon-envelop3"></i></a>
 																</div>
 
 																<div class="col-xs-3">
-																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="Dribbble"><i class="icon-dribbble"></i></a>
+																	<a href="#" class="display-block p-10 text-default" data-popup="tooltip" "icon-red icon-arrow-right13"cement="top" data-container="body" title="Report user"><i class="text-shadow text-red icon-user-block"></i></a>
 																</div>
 															</div>
 														</div>
@@ -1253,11 +1294,12 @@
 						<!-- Thumbnails -->
 				    	<div class="panel panel-flat">
 							<div class="panel-heading">
-								New Games 
+								<a href="#"  class="text-white text-bold">NEW <span class="text-red text-bold"> GAMES</span></a>
+								
 								<div class="heading-elements">
 									<ul class="icons-list">
-				                		<li><a data-action="collapse"></a></li>
-				                	</ul>
+										<li><a href="#"><i class="icon-arrow-right13"></i></a></li>
+									</ul>
 			                	</div>
 							</div>
 
@@ -1331,7 +1373,7 @@
 						<!-- New Walkthrough -->
 						<div class="panel panel-flat">
 							<div class="panel-heading">
-								<h6 class="panel-title">Tips & Hints<a class="heading-elements-toggle"><i class="icon-more"></i></a></h6>
+								<a href="#"  class="text-white text-bold">TIPS & <span class="text-red text-bold"> HINTS</span></a>
 
 								<div class="heading-elements">
 									<ul class="icons-list">
@@ -1351,8 +1393,8 @@
 											<span class="text-semibold text-white">Instant Win in 10 rounds adasdasdasdasdasd</span>											
 										</a>
 
-										<span class="text-muted">Mobile Legend</span>
-										<a href="#" data-popup="tooltip" title="" data-original-title="Add tips"> <span class="icon-plus3 pull-right"></span> </a>
+										<a href="#"><span class="text-muted">Mobile Legend</span> </a>
+										<a href="#"  class="icon-plus3 pull-right" data-popup="tooltip" data-container="body" title="Add tips"> </a>
 									</div>
 								</li>
 
@@ -1366,8 +1408,8 @@
 											<span class="text-semibold text-white">Instant Win in 10 rounds adasdasdasdasdasd</span>											
 										</a>
 
-										<span class="text-muted">Mobile Legend</span>
-										<a href="#" data-popup="tooltip" title="" data-original-title="Add tips"> <span class="icon-plus3 pull-right"></span> </a>
+										<a href="#"><span class="text-muted">Mobile Legend</span> </a>
+										<a href="#"  class="icon-plus3 pull-right" data-popup="tooltip" data-container="body" title="Add tips"> </a>
 									</div>
 								</li>
 
@@ -1381,8 +1423,8 @@
 											<span class="text-semibold text-white">Instant Win in 10 rounds adasdasdasdasdasd</span>											
 										</a>
 
-										<span class="text-muted">Mobile Legend</span>
-										<a href="#" data-popup="tooltip" title="" data-original-title="Add tips"> <span class="icon-plus3 pull-right"></span> </a>
+										<a href="#"><span class="text-muted">Mobile Legend</span> </a>
+										<a href="#"  class="icon-plus3 pull-right" data-popup="tooltip" data-container="body" title="Add tips"> </a>
 									</div>
 								</li>
 
@@ -1396,8 +1438,8 @@
 											<span class="text-semibold text-white">Instant Win in 10 rounds adasdasdasdasdasd</span>											
 										</a>
 
-										<span class="text-muted">Mobile Legend</span>
-										<a href="#" data-popup="tooltip" title="" data-original-title="Add tips"> <span class="icon-plus3 pull-right"></span> </a>
+										<a href="#"><span class="text-muted">Mobile Legend</span> </a>
+										<a href="#"  class="icon-plus3 pull-right" data-popup="tooltip" data-container="body" title="Add tips"> </a>
 									</div>
 								</li>
 								
@@ -1411,8 +1453,8 @@
 											<span class="text-semibold text-white">Instant Win in 10 rounds adasdasdasdasdasd</span>											
 										</a>
 
-										<span class="text-muted">Mobile Legend</span>
-										<a href="#" data-popup="tooltip" title="" data-original-title="Add tips"> <span class="icon-plus3 pull-right"></span> </a>
+										<a href="#"><span class="text-muted">Mobile Legend</span> </a>
+										<a href="#"  class="icon-plus3 pull-right" data-popup="tooltip" data-container="body" title="Add tips"> </a>
 									</div>
 								</li>
 							</ul>
@@ -1623,6 +1665,17 @@
 
 						</div>
 						<!-- /new walkthrough -->
- 
+						
+						<!-- Knowledge Base -->
+						<div class="panel">
+							<div class="panel-body text-center">
+								<div class="icon-object border-red text-red"><i class="icon-book"></i></div>
+								<h5 class="text-semibold">Frequently Asked Questions</h5>
+								<p class="mb-15">Is navigating the website harder than grinding in games? Click the link down below for an answers to your most mind-boggling questions.</p>
+								<a href="#" class="btn bg-red">Click here</a>
+							</div>
+						</div>
+						<!-- /knowledge base -->
+						
 					</div>
 					<!-- /sidebar -->

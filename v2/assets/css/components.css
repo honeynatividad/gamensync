@@ -15140,7 +15140,7 @@ a.plupload_disabled:focus {
   border-bottom: 0;
 }
 .footable.breakpoint > tbody > tr.footable-row-detail:hover {
-  background-color: transparent;
+  /*background-color: transparent;*/
 }
 .footable.breakpoint > tbody > tr:hover:not(.footable-row-detail) {
   cursor: pointer;
@@ -15169,6 +15169,8 @@ a.plupload_disabled:focus {
   display: table;
   table-layout: fixed;
   width: 100%;
+  max-width: 350px;
+  margin: auto;
 }
 .footable-row-detail-row {
   display: table-row;
@@ -18539,23 +18541,19 @@ thead .htCollapseButton:after {
   margin-bottom: 20px;
 }
 .timeline-date {
-  text-align: center;
+  padding: 10px;
   position: relative;
   z-index: 1;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-  color: #fff;
-  background-image: -webkit-linear-gradient(ellipse farthest-corner at center 0px,#31a2a6 -150%,#333240 45%,#333240 85%);
-  background-image: -moz-linear-gradient(ellipse farthest-corner at center 0px,#31a2a6 -150%,#333240 45%,#333240 85%);
-  background-image: -o-linear-gradient(ellipse farthest-corner at center 0px,#31a2a6 -150%,#333240 45%,#333240 85%);
-  background-image: radial-gradient(ellipse farthest-corner at center 0px,#31a2a6 -150%,#333240 45%,#333240 85%);
+  text-transform: uppercase; 
   border: 1px solid #000;
-  border-top: none;
-  border-radius: 0;
-  -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, .4), inset 0 1px 1px rgba(255, 255, 255, .2);
-  -moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, .4), inset 0 1px 1px rgba(255, 255, 255, .2);
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .4), inset 0 1px 1px rgba(255, 255, 255, .2);
+  -webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, .2);
+  -moz-box-shadow: inset 0 1px 1px rgba(255, 255, 255, .2);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, .2);
+  background:  url('../images/stripe.png') top left #1d1d1d;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
 }
 .timeline-date:before,
 .timeline-date:after {
@@ -19057,7 +19055,6 @@ thead .htCollapseButton:after {
   }
 }
 .heading-elements {
-  background-color: inherit;
   position: absolute;
   top: 50%;
   right: 20px;

@@ -127,7 +127,8 @@
 								<ul class="dropdown-menu width-250">
 									<li class="dropdown-header">Hall of Fame</li>
 										<li><a href="starters/layout_boxed.html"><i class="icon-red icon-trophy2"></i>Top 10 Game Pilots</a></li>
-										<li><a href="starters/layout_sidebar_sticky.html"><i class="icon-red icon-crown"></i>Top 10 Account Sellers</a></li>							 
+										<li><a href="starters/layout_sidebar_sticky.html"><i class="icon-red icon-crown"></i>Top 10 Account Sellers</a></li>
+										<li><a href="starters/layout_sidebar_sticky.html"><i class="icon-red icon-medal"></i>Top 10 Reviewers</a></li>
 									<li class="dropdown-header">Accounts</li>
 										<li><a href="starters/layout_boxed.html"><i class="icon-red icon-user-check"></i>Sellers</a></li>
 										<li><a href="starters/layout_boxed.html"><i class="icon-red icon-user-plus"></i>Game Pilots</a></li>
@@ -147,6 +148,17 @@
 									<li class="dropdown-header">Reviews</li>
 										<li><a href="starters/layout_boxed.html"><i class="icon-red icon-bubble-lines4"></i> Editor's Review</a></li>
 										<li><a href="starters/layout_sidebar_sticky.html"><i class="icon-red icon-bubble-dots3"></i> Gamer's Review</a></li>
+								</ul>
+							</li>
+							
+							<li class="dropdown">
+								<a href="https://www.gamensync.com/community" class="dropdown-toggle" data-toggle="dropdown">
+									<i class="icon-book icon-red position-left"></i> FAQs <span class="caret"></span>
+								</a>
+
+								<ul class="dropdown-menu width-200"> 
+									<li><a href="starters/layout_boxed.html"><i class="icon-red icon-bubbles4"></i> FAQs</a></li>
+									<li><a href="starters/layout_sidebar_sticky.html"><i class="icon-red icon-bubbles8"></i> Tips & Hints/a></li>	 
 								</ul>
 							</li>
 						</ul>

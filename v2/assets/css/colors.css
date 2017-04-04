@@ -1484,7 +1484,7 @@
   border-left-color: #1565C0;
 }
 .border-left-danger {
-  border-left-color: #F44336;
+  border-left-color:  rgb(232, 53, 52);
 }
 .border-left-danger-300 {
   border-left-color: #E57373;
@@ -2051,7 +2051,7 @@
   color:rgb(232, 53, 52);
 }
  .text-white {
-  color: #ddd !important;
+  color: #fff !important;
  }
 .text-red,
 .text-red:hover,
@@ -2538,10 +2538,9 @@
 .text-slate-800:focus {
   color: #37474F !important;
 }
-.text-white,
 .text-white:hover,
 .text-white:focus {
-  color: #fff!important;
+  color:  rgb(232, 53, 52) !important;
 }
 .text-default,
 .text-default:hover,
