@@ -39,7 +39,7 @@ class Users extends CI_Controller {
             if($this->form_validation->run() == true){
                 $insert = $this->user->insert($userData);
                 if($insert){
-                    $this->session->set_userdata('success_msg', 'Your registration was successfully. Please login to your account.');
+                    $this->session->set_userdata('success_msg', 'Your registration was successful. Please login to your account.');
                     redirect('users/login');
                 }else{
                     $data['error_msg'] = 'Some problems occured, please try again.';
@@ -68,7 +68,7 @@ class Users extends CI_Controller {
         }
     }
 
-    public function register_inseret(){
+    public function register_insert(){
         if($this->input->post('username')){
             $username = strip_tags($this->input->post('username'));
             
@@ -86,6 +86,9 @@ class Users extends CI_Controller {
             $check = $this->user->insert($userData);
             
             echo $check;
-        }    
+        }else{
+            echo 'wrong!';
+        }
+
     }
 }

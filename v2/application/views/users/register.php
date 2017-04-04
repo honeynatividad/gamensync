@@ -109,7 +109,7 @@
 									</div>
 
 									<div class="tab-pane fade" id="basic-tab2">
-										<form >
+										<form method="post" action="">
 											<div class="panel-body">
 												<div class="text-center">
 													<div class="icon-object border-success text-success"><i class="icon-plus3"></i></div>
@@ -264,7 +264,7 @@
 
 												<div class="text-right">
 													<button type="submit" class="btn btn-link"><i class="icon-arrow-left13 icon-orange position-left"></i> Back to login form</button>
-													<button type="button" id="registersubmit" name="registersubmit" class="btn bg-red btn-labeled btn-labeled-right ml-10"><b><i class="icon-plus3"></i></b> Create account</button>
+													<button type="button" id="registersubmit" class="btn bg-red btn-labeled btn-labeled-right ml-10"><b><i class="icon-plus3"></i></b> Create account</button>
 												</div>
 											</div> 
 										</form>
@@ -350,7 +350,7 @@
 
 					$('#username').on('keyup', function () {
 						var username = $('#username').val();
-						//alert(username);
+						
 					    $.ajax({
 					    	type: 'post',
 					     	url: '<?php echo base_url("users/checkusername");?>',
@@ -374,14 +374,14 @@
 						var first_name = $("#first_name").val();
 						var last_name = $("#last_name").val();
 						var password = $("#password").val();
-						var email_address = $("#email_password").val();
+						var email_address = $("#email_address").val();
 						var platform = $("#platform").val();
 						var interest = $("#interest").val();
 						var password_msg = $("#password_msg").val();
 						var email_address_msg = $("#email_address_msg").val();
 						var username_msg = $("#username_msg").val();
 						var go = 1;
-						//alert(password_msg);
+						
 						if(password_msg == 1){
 							$('#message_password').html('You forgot to correct your confirm password. Please rectify.').css('color', 'red');
 							go = 0;
@@ -392,34 +392,38 @@
 							go = 0;
 						}
 
-						if(username_msg == 1){
+						if(username_msg == 0){
 							$('#message_username').html('You forgot to correct your suername. Please rectify.').css('color', 'red');
 							go = 0;
 						}
 						if(username != '' && password != '' && email_address != '' && first_name != '' && last_name != '' && platform != '' && interest != ''){
 							if(go == 1){
+								//alert(" username" + username + " password "+password+ " first name "+first_name+ " last name "+last_name+ " email address "+email_address+" platform "+platform + "interest "+interest);
 								$.ajax({
 							    	type: 'post',
 							     	url: '<?php echo base_url("users/register_insert");?>',
 							     	data: {
 							       		username:username,
 							       		password:password,
-							       		first_name:first_name.
+							       		first_name:first_name,
 							       		last_name:last_name,
 							       		email_address:email_address,
 							       		platform:platform,
 							       		interest:interest
 							     	},
 							     	success: function (response) {
-							        	window.location.href = '<?php echo base_url('users/success/') ?>' + response
+							     		//alert(response);
+							        	window.location.href = '<?php echo base_url('users/success/') ?>' + response;
 							      
 							    	}
 							   });
+							}else{
+								alert("GO is "+go);
 							}
 							
 							
 						}else{
-							alert("Please Provide Required Fields");
+							$('#message_email').html('Please dont forget to fill out the form').css('color', 'red');
 						}
 						
 					});
@@ -447,8 +451,7 @@
 
 				function fetch_select(val)
 				{
-				    $(".lloading").text("Loading....");
-				    
+				   
 				   
 				}
 				</script>
