@@ -114,14 +114,14 @@
 															<!--/no trophy-->
 														</td>
 														<td class="text-center">
-															<span class="text-green"> $600 </span>
+															<span> $600 </span>
 														</td>
 														<td class="text-center">
 															<ul class="icons-list">
-																<li><a href="#" data-popup="tooltip" data-container="body" title="View"><i class="text-shadow text-muted icon-eye"></i></a></li>
-																<li><a href="#" data-popup="tooltip" data-container="body" title="Add to cart"><i class="text-shadow text-muted  icon-basket"></i></a></li>
-																<li><a href="#" data-popup="tooltip" data-container="body" title="Add to wishlist"><i class="text-shadow text-muted  icon-heart5"></i></a></li> 
-															</ul> 
+																<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="Send message"><i class="text-shadow text-grey icon-mail5"></i></a></li>
+																<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="Add to cart"><i class="text-shadow text-grey icon-basket"></i></a></li>
+																<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="Add to wishlist"><i class="text-shadow text-grey icon-heart5"></i></a></li> 
+															</ul>
 														</td>		
 													</tr>
 													
@@ -158,14 +158,14 @@
 															</ul>  
 														</td>
 														<td class="text-center">
-															<span class="text-green"> $600 </span>
+															<span> $600 </span>
 														</td>
 														<td class="text-center">
 															<ul class="icons-list">
-																<li><a href="#" data-popup="tooltip" data-container="body" title="View"><i class="text-teal icon-eye"></i></a></li>
-																<li><a href="#" data-popup="tooltip" data-container="body" title="Add to cart"><i class="text-red icon-basket"></i></a></li>
-																<li><a href="#" data-popup="tooltip" data-container="body" title="Add to wishlist"><i class="text-green icon-heart5"></i></a></li> 
-															</ul> 
+																<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="Send message"><i class="text-shadow text-grey icon-mail5"></i></a></li>
+																<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="Add to cart"><i class="text-shadow text-grey icon-basket"></i></a></li>
+																<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="Add to wishlist"><i class="text-shadow text-grey icon-heart5"></i></a></li> 
+															</ul>
 														</td>		
 													</tr>
 													
@@ -202,15 +202,15 @@
 															</ul>  
 														</td>
 														<td class="text-center">
-															<span class="text-green"> $600 </span>
+															<span> $600 </span>
 														</td>
 														<td class="text-center">
 															<ul class="icons-list">
-																<li><a href="#" data-popup="tooltip" data-container="body" title="View"><i class="text-teal icon-eye"></i></a></li>
-																<li><a href="#" data-popup="tooltip" data-container="body" title="Add to cart"><i class="text-red icon-basket"></i></a></li>
-																<li><a href="#" data-popup="tooltip" data-container="body" title="Add to wishlist"><i class="text-green icon-heart5"></i></a></li> 
-															</ul> 
-														</td>		
+																<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="Send message"><i class="text-shadow text-grey icon-mail5"></i></a></li>
+																<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="Add to cart"><i class="text-shadow text-grey icon-basket"></i></a></li>
+																<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="Add to wishlist"><i class="text-shadow text-grey icon-heart5"></i></a></li> 
+															</ul>
+														</td>	
 													</tr>
 													
 													<tr>
@@ -246,15 +246,15 @@
 															</ul>  
 														</td>
 														<td class="text-center">
-															<span class="text-green"> $600 </span>
+															<span> $600 </span>
 														</td>
 														<td class="text-center">
 															<ul class="icons-list">
-																<li><a href="#" data-popup="tooltip" data-container="body" title="View"><i class="text-teal icon-eye"></i></a></li>
-																<li><a href="#" data-popup="tooltip" data-container="body" title="Add to cart"><i class="text-red icon-basket"></i></a></li>
-																<li><a href="#" data-popup="tooltip" data-container="body" title="Add to wishlist"><i class="text-green icon-heart5"></i></a></li> 
-															</ul> 
-														</td>		
+																<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="Send message"><i class="text-shadow text-grey icon-mail5"></i></a></li>
+																<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="Add to cart"><i class="text-shadow text-grey icon-basket"></i></a></li>
+																<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="Add to wishlist"><i class="text-shadow text-grey icon-heart5"></i></a></li> 
+															</ul>
+														</td>	
 													</tr>
 													
 													<tr>
@@ -290,15 +290,15 @@
 															</ul>  
 														</td>
 														<td class="text-center">
-															<span class="text-green"> $600 </span>
+															<span> $600 </span>
 														</td>
 														<td class="text-center">
 															<ul class="icons-list">
-																<li><a href="#" data-popup="tooltip" data-container="body" title="View"><i class="text-teal icon-eye"></i></a></li>
-																<li><a href="#" data-popup="tooltip" data-container="body" title="Add to cart"><i class="text-red icon-basket"></i></a></li>
-																<li><a href="#" data-popup="tooltip" data-container="body" title="Add to wishlist"><i class="text-green icon-heart5"></i></a></li> 
-															</ul> 
-														</td>		
+																<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="Send message"><i class="text-shadow text-grey icon-mail5"></i></a></li>
+																<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="Add to cart"><i class="text-shadow text-grey icon-basket"></i></a></li>
+																<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="Add to wishlist"><i class="text-shadow text-grey icon-heart5"></i></a></li> 
+															</ul>
+														</td>	
 													</tr>
 												</tbody>
 											</table>										
@@ -394,21 +394,10 @@
 													</div> 
 												</div>
 												
-												<div class="col-s-12 col-lg-6">  
+												<div class="col-xs-12 col-lg-6">  
 													<div class="panel panel-flat">
 														<div class="panel-heading">
-															<h6 class="panel-title">Request Pilot</h6>
-
-															<div class="heading-elements">
-																<form class="heading-form" action="#">
-																	<div class="form-group">
-																		<label class="checkbox-inline checkbox-right checkbox-switchery switchery-xs">
-																			<input type="checkbox" class="switchery" checked="checked">
-																			Notify (?)
-																		</label>
-																	</div>
-																</form>
-															</div>
+															<h6 class="panel-title">Request Pilot</h6> 
 														</div>
 
 														<form class="panel-body" action="#">
@@ -435,19 +424,20 @@
 																<textarea class="form-control" cols="3" rows="3" placeholder="Message to the pilot"></textarea>
 															</div>
 
-															<div class="row">
-																<div class="col-xs-6">
+															<div class="panel-title">																	
 																	<div class="checkbox">
 																		<label class="checkbox-inline">
 																			<input type="checkbox" class="styled" checked="checked">
 																			Agree to <a href="#">Terms & Conditions </a>
 																		</label>
 																	</div>
-																</div>
-
-																<div class="col-xs-6 text-right">
-																	<button type="submit" class="btn bg-red">Request</button>
-																</div>
+																
+																	<div class="heading-elements1">
+																		<span class="heading-text">
+																			<button type="submit" class="btn bg-red" id="submit_pilotrequest">Request</button> 
+																		</span>
+																	</div>
+																 
 															</div>
 														</form>
 													</div>
@@ -663,10 +653,10 @@
 															<a href="#" class="display-block content-group">
 																<img src="assets/images/placeholder.jpg" class="img-responsive content-group" alt="">
 															</a>
-															<ul class="list-inline list-inline-separate text-muted content-group">
-																<li>By <a href="#" class="text-muted">Kirayuki</a></li>
-																<li><a href="#" class="text-muted">Roleplaying</a></li>
-																<li><a href="#" class="text-muted"><i class="icon-heart5 text-size-base text-pink position-left"></i> 281</a></li>
+															<ul class="list-inline text-muted content-group">
+																<li><a href="#" class="text-muted"><i class="icon-user text-size-base text-red position-left"></i> KiraYuki</a></li>
+																<li><a href="#" class="text-muted"><i class="icon-price-tag2 text-size-base text-red position-left"></i>Roleplaying</a></li>
+																<li><a href="#" class="text-muted"><i class="icon-heart5 text-size-base text-red position-left"></i> 231</a></li>
 																<li><a href="#"><i class="icon-android color-android"></i> &nbsp;  <span class="label label-flat border-success color-android"> Android</span></a></a></li>
 																<!-- <li><a href="#"><i class="icon-apple3 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> Android</span></a></a></li> -->
 															</ul>  
@@ -695,8 +685,8 @@
 																</ul>
 															</div>	
 															<div class="col-xs-3">
-																<a href="#" class="heading-btn pull-right btn btn-link no-padding">Read review
-																	<i class="icon-arrow-right14 text-red position-right"></i> 
+																<a href="#" class="heading-btn pull-right btn btn-link no-padding">Read
+																	<i class="icon-arrow-right14 text-white position-right"></i> 
 																</a>
 															</div>
 														</div>
@@ -733,10 +723,10 @@
 															<a href="#" class="display-block content-group">
 																<img src="assets/images/placeholder.jpg" class="img-responsive content-group" alt="">
 															</a>
-															<ul class="list-inline list-inline-separate text-muted content-group">
-																<li>By <a href="#" class="text-muted">Eugene</a></li>
-																<li><a href="#" class="text-muted">Strategy</a></li>
-																<li><a href="#" class="text-muted"><i class="icon-heart5 text-size-base text-pink position-left"></i> 281</a></li>
+															<ul class="list-inline  text-muted content-group">
+																<li><a href="#" class="text-muted"><i class="icon-user text-size-base text-red position-left"></i> Eugene</a></li>
+																<li><a href="#" class="text-muted"><i class="icon-price-tag2 text-size-base text-red position-left"></i>Strategy</a></li>
+																<li><a href="#" class="text-muted"><i class="icon-heart5 text-size-base text-red position-left"></i> 281</a></li>
 																<li><a href="#"><i class="icon-apple2 color-ios"></i> &nbsp;  <span class="label label-flat border-grey color-ios"> IOS</span></a></a></li>
 															</ul>  
 								 
@@ -763,7 +753,7 @@
 																</ul>
 															</div>	
 															<div class="col-xs-3">
-																<a href="#" class="heading-btn pull-right btn btn-link no-padding">Read review
+																<a href="#" class="heading-btn pull-right btn btn-link no-padding">Read
 																	<i class="icon-arrow-right14 position-right"></i> 
 																</a>
 															</div>
@@ -1487,7 +1477,7 @@
 									<ul class="media-list">
 										<li class="media">
 											<div class="media-left">
-												<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""> 
+												<img src="assets/images/placeholder.jpg" class="img-circle img-lg" alt=""> 
 											</div>
 
 											<div class="media-body">
@@ -1497,16 +1487,16 @@
 												</a>
 
 												<ul class="icons-list">
-													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="View profile"><i class="text-teal icon-eye"></i></a></li>
-													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Accounts for sale"><i class="text-red icon-basket"></i></a></li>
-													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Add user"><i class="text-green icon-user-plus"></i></a></li> 
+													<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="" data-original-title="View profile"><i class="text-shadow text-grey icon-eye"></i></a></li>
+													<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="" data-original-title="Accounts for sale"><i class="text-shadow text-grey icon-basket"></i></a></li>
+													<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="" data-original-title="Add user"><i class="text-shadow text-grey icon-user-plus"></i></a></li> 
 												</ul>
 											</div>
 										</li>
 
 										<li class="media">
 											<div class="media-left">
-												<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""> 
+												<img src="assets/images/placeholder.jpg" class="img-circle img-lg" alt=""> 
 											</div>
 
 											<div class="media-body">
@@ -1516,16 +1506,16 @@
 												</a>
 
 												<ul class="icons-list">
-													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="View profile"><i class="text-teal icon-eye"></i></a></li>
-													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Accounts for sale"><i class="text-red icon-basket"></i></a></li>
-													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Add user"><i class="text-green icon-user-plus"></i></a></li> 
+													<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="" data-original-title="View profile"><i class="text-shadow text-grey icon-eye"></i></a></li>
+													<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="" data-original-title="Accounts for sale"><i class="text-shadow text-grey icon-basket"></i></a></li>
+													<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="" data-original-title="Add user"><i class="text-shadow text-grey icon-user-plus"></i></a></li> 
 												</ul>
 											</div>
 										</li>
 
 										<li class="media">
 											<div class="media-left">
-												<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""> 
+												<img src="assets/images/placeholder.jpg" class="img-circle img-lg" alt=""> 
 											</div>
 
 											<div class="media-body">
@@ -1535,16 +1525,16 @@
 												</a>
 
 												<ul class="icons-list">
-													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="View profile"><i class="text-teal icon-eye"></i></a></li>
-													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Accounts for sale"><i class="text-red icon-basket"></i></a></li>
-													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Add user"><i class="text-green icon-user-plus"></i></a></li> 
+													<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="" data-original-title="View profile"><i class="text-shadow text-grey icon-eye"></i></a></li>
+													<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="" data-original-title="Accounts for sale"><i class="text-shadow text-grey icon-basket"></i></a></li>
+													<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="" data-original-title="Add user"><i class="text-shadow text-grey icon-user-plus"></i></a></li> 
 												</ul>
 											</div>
 										</li>
 
 										<li class="media">
 											<div class="media-left">
-												<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""> 
+												<img src="assets/images/placeholder.jpg" class="img-circle img-lg" alt=""> 
 											</div>
 
 											<div class="media-body">
@@ -1554,15 +1544,16 @@
 												</a>
 
 												<ul class="icons-list">
-													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="View profile"><i class="text-teal icon-eye"></i></a></li>
-													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Accounts for sale"><i class="text-red icon-basket"></i></a></li>
-													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Add user"><i class="text-green icon-user-plus"></i></a></li> 
+													<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="" data-original-title="View profile"><i class="text-shadow text-grey icon-eye"></i></a></li>
+													<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="" data-original-title="Accounts for sale"><i class="text-shadow text-grey icon-basket"></i></a></li>
+													<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="" data-original-title="Add user"><i class="text-shadow text-grey icon-user-plus"></i></a></li> 
 												</ul>
 											</div>
 										</li>
+										
 										<li class="media">
 											<div class="media-left">
-												<img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""> 
+												<img src="assets/images/placeholder.jpg" class="img-circle img-lg" alt=""> 
 											</div>
 
 											<div class="media-body">
@@ -1572,12 +1563,13 @@
 												</a>
 
 												<ul class="icons-list">
-													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="View profile"><i class="text-teal icon-eye"></i></a></li>
-													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Accounts for sale"><i class="text-red icon-basket"></i></a></li>
-													<li><a href="#" data-popup="tooltip" data-container="body" title="" data-original-title="Add user"><i class="text-green icon-user-plus"></i></a></li> 
+													<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="" data-original-title="View profile"><i class="text-shadow text-grey icon-eye"></i></a></li>
+													<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="" data-original-title="Accounts for sale"><i class="text-shadow text-grey icon-basket"></i></a></li>
+													<li><a href="#" class="label label-flat label-rounded label-icon border-black" data-popup="tooltip" data-container="body" title="" data-original-title="Add user"><i class="text-shadow text-grey icon-user-plus"></i></a></li> 
 												</ul>
 											</div>
 										</li>
+										
 									</ul>
 								</div>
 
@@ -1679,3 +1671,32 @@
 						
 					</div>
 					<!-- /sidebar -->
+					
+					<!-- Request Confirmation -->
+					<div id="modal-recover" class="modal fade">
+						<div class="modal-dialog">
+							<div class="modal-content login-form">
+
+								<!-- Form -->
+								<form class="modal-body" action="gamensync_registration.html">
+									<div class="text-center">
+										<div class="icon-object border-warning text-warning"><i class="icon-spinner11"></i></div>
+										<h5 class="content-group">Password recovery <small class="display-block">Check your email for the instructions on how to reset your password. Check spam or junk mail for the recovery email if it's not in your inbox.</small></h5>
+									</div>
+
+									<div class="form-group has-feedback">
+										<input type="email" class="form-control" placeholder="Your email">
+										<div class="form-control-feedback">
+											<i class="icon-mail5 text-muted"></i>
+										</div>
+									</div>
+
+									<button type="submit" class="btn bg-red btn-block">Reset password <i class="icon-arrow-right14 position-right"></i></button>
+									<button type="button" class="btn bg-red btn-block" data-dismiss="modal">Cancel</button>
+								</form>
+								<!-- /form -->
+
+							</div>
+						</div>
+					</div>
+					<!-- /request confirmation -->

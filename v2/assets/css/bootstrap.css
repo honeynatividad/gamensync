@@ -1092,11 +1092,14 @@ body {
   color: #ddd;
   background-attachment: fixed !important;
   /* background: #1d2031 url(../images/bg3.jpg) no-repeat center top; */
-  background-image: radial-gradient(ellipse farthest-corner at center 0px,rgb(255, 36, 35) -80%,#333240 45%,#333240 85%);  background: rgb(255, 36, 35); /* For browsers that do not support gradients */
+  background-image: radial-gradient(ellipse farthest-corner at center 0px,rgb(255, 36, 35) -80%,#333240 45%,#333240 85%);  
+  background: rgb(255, 36, 35); /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(rgb(255, 36, 35), #1d2031); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(rgb(255, 36, 35), #1d2031); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(rgb(255, 36, 35), #1d2031); /* For Firefox 3.6 to 15 */
   background: linear-gradient(rgb(255, 36, 35), #1d2031); /* Standard syntax */
+  background: -ms-linear-gradient(ellipse farthest-corner at center 0px,rgb(255, 36, 35) -80%,#333240 45%,#333240 85%);
+  -webkit-transform: translate3d(0, 0, 0);
 }
 input,
 button,
@@ -6954,6 +6957,22 @@ tr:nth-child(even) {
 .text-shadow { 
   text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
 }
+.heading-elements1 {
+  position: absolute;
+  top: 70%;
+  right: 0px;
+  height: 36px;
+  margin-top: -18px;
+}
+.text-black {
+	color: #000
+}
+.border-black {
+  border-color: #111 !important;
+  -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, .2), inset 0 1px 1px rgba(255, 255, 255, .15);
+  -moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, .2), inset 0 1px 1px rgba(255, 255, 255, .15);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .2), inset 0 1px 1px rgba(255, 255, 255, .15);
+} 
 @media (min-width: 769px) {
 .text-width {
     max-width:370px;
@@ -6967,6 +6986,6 @@ tr:nth-child(even) {
 }
 @media (max-width: 360px) {
 .text-width {
-    max-width: 140px;
+    max-width: 120px;
  }
 }

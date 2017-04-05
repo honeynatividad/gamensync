@@ -35,6 +35,8 @@
 	<script type="text/javascript" src="<?php echo base_url('assets/js/pages/user_pages_profile.js') ?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('assets/js/pages/table_responsive.js') ?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('assets/js/plugins/tables/footable/footable.min.js') ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/js/pages/components_modals.js') ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/js/plugins/notifications/sweet_alert.min.js') ?>"></script>
 	<!-- /theme JS files -->
 
 </head>

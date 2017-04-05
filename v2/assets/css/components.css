@@ -8177,10 +8177,19 @@ body.stop-scrolling {
   z-index: 1050;
 }
 .sweet-alert {
-  background-color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #1d1d1d;
+  border: 1px solid #000;
+  background-image: -webkit-linear-gradient(ellipse farthest-corner at center 0px,#31a2a6 -150%,#333240 45%,#333240 85%);
+  background-image: -moz-linear-gradient(ellipse farthest-corner at center 0px,#31a2a6 -150%,#333240 45%,#333240 85%);
+  background-image: -o-linear-gradient(ellipse farthest-corner at center 0px,#31a2a6 -150%,#333240 45%,#333240 85%);
+  -webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, .2);
+  -moz-box-shadow: inset 0 1px 1px rgba(255, 255, 255, .2);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, .2);
   width: 470px;
   padding: 20px;
-  border-radius: 3px;
   text-align: center;
   position: fixed;
   left: 50%;
@@ -8193,7 +8202,7 @@ body.stop-scrolling {
 }
 .sweet-alert h2 {
   margin-top: 10px;
-  font-size: 19px;
+  font-size: 14px;
   text-align: center;
   display: block;
   position: relative;
@@ -8494,7 +8503,6 @@ body.stop-scrolling {
   position: absolute;
   width: 60px;
   height: 120px;
-  background-color: #fff;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
@@ -8542,7 +8550,6 @@ body.stop-scrolling {
 .sweet-alert .sa-icon.sa-success .sa-fix {
   width: 5px;
   height: 90px;
-  background-color: #fff;
   position: absolute;
   left: 28px;
   top: 8px;
@@ -19448,11 +19455,11 @@ thead .htCollapseButton:after {
   }
   .panel-heading .visible-elements {
     margin: 15px -20px 0 -20px;
-    background-color: #fcfcfc;
+    /* background-color: #fcfcfc; */
   }
   .panel-flat .panel-heading .visible-elements {
     margin-top: 20px;
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
   }
   .panel-footer .visible-elements {
     margin-top: 7px;

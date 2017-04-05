@@ -185,6 +185,14 @@ $(function() {
     // Sweet Alert extension
     // ------------------------------
 
+	// Submit
+    $('#submit_pilot').on('click', function() {
+        swal({
+            title: "Thank you for submitting your request. We'll notify you along with the details once we've successfully connected you with potential game pilots.",
+            confirmButtonColor: "#F44336"
+        });
+    });
+	
     // Basic
     $('#sweet_basic').on('click', function() {
         swal({
@@ -280,6 +288,16 @@ $(function() {
         swal({
             title: "Good job!",
             text: "You clicked the button!",
+            confirmButtonColor: "#66BB6A",
+            type: "success"
+        });
+    });
+	
+	// Submit pilto request
+    $('#submit_pilotrequest').on('click', function() {
+        swal({
+            title: "Thank you for submitting your request.",
+            text: "We'll notify you along with the details once we've successfully connected you with potential game pilots.",
             confirmButtonColor: "#66BB6A",
             type: "success"
         });
