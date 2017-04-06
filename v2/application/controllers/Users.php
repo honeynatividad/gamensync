@@ -11,6 +11,7 @@ class Users extends CI_Controller {
 	    $this->load->library('form_validation');
         $this->load->model('user');
 		$this->user_data = $this->session->userdata('userId');
+        $this->load->library('My_PHPMailer');
 	        
     }
 
@@ -91,4 +92,30 @@ class Users extends CI_Controller {
         }
 
     }
+
+    public function send_mail($to,$subject,$message) {
+        $mail = new PHPMailer();    
+        $mail->SMTPAuth   = false; 
+        $mail->SMTPSecure = "ssl"; 
+        $mail->Host       = 'smtp.philcare.com.ph'; 
+        $mail->Port       = 25; 
+        $mail->Username   = 'advisory@philcare.com.ph'; 
+        $mail->Password   = 'P@ssw0rd'; 
+        $mail->SetFrom('advisory@philcare.com.ph','PhilCare Advisory');  
+        $mail->IsHTML(true);
+        $mail->Subject    = $subject;
+        $msg =$message;
+        $mail->Body = $msg;
+        //$mail->AltBody    = "Plain text message";
+        $destino = $to; 
+        $mail->AddAddress($destino);
+
+        if(!$mail->Send()) {
+            $data["message"] = "Error: " . $mail->ErrorInfo;
+        } else {
+            $data["message"] = "Message sent correctly!";
+        }
+        
+        return json_encode($data);
+    }   
 }
