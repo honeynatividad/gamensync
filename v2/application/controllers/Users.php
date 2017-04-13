@@ -74,6 +74,7 @@ class Users extends CI_Controller {
             $username = strip_tags($this->input->post('username'));
             
             //$username = "test";
+            $hash = md5(rand(0, 1000));
             $userData = array(
                 'username' => strip_tags($this->input->post('username')),
                 'first_name' => strip_tags($this->input->post('first_name')),
@@ -81,12 +82,16 @@ class Users extends CI_Controller {
                 'password' => md5($this->input->post('password')),
                 'email_address' => $this->input->post('email_address'),
                 'platform' => strip_tags($this->input->post('platform')),
-                'interest' => strip_tags($this->input->post('interest'))
+                'interest' => strip_tags($this->input->post('interest')),
+                'hash' => $hash,
+                'is_verified' => 0
             );
-
+            $first_name = strip_tags($this->input->post('username'));
+            $email = strip_tags($this->input->post('email_address'));
             $check = $this->user->insert($userData);
             if($check){
-                $this->send_mail('honeynatividad@gmail.com','Registration','Thank you');
+                $this->send_mail($email,'Registration','Thank you');
+                
             }
             echo $check;
         }else{
@@ -96,6 +101,10 @@ class Users extends CI_Controller {
     }
 
     public function send_mail($to,$subject,$message) {
+        //get user info
+        $user = $this->user->getUser($to);
+
+
         $mail = new PHPMailer();    
         $mail->SMTPAuth   = false; 
         $mail->SMTPSecure = "ssl"; 
@@ -109,6 +118,23 @@ class Users extends CI_Controller {
         $msg =$message;
         $mail->Body = $msg;
         //$mail->AltBody    = "Plain text message";
+
+        $message= /*-----------email body starts-----------*/
+                    'Thanks for signing up, '.$check["first_name"].'!
+                  
+                    Your account has been created. 
+                    Here are your login details.
+                    -------------------------------------------------
+                    Email   : ' . $to . '
+                   
+                    -------------------------------------------------
+                                    
+                    Please click this link to activate your account:
+                        
+                    ' . base_url() . 'users/verify?' . 
+                    'email=' . $to . '&hash=' . $check["hash"] ;
+
+
         $destino = $to; 
         $mail->AddAddress($destino);
 
@@ -129,5 +155,13 @@ class Users extends CI_Controller {
                 /*---Now you can redirect the user to whatever page you want---*/
             }
          }
+    }
+
+    function checkUser(){
+
+        $check = $this->user->getUser('honeynatividad@gmail.com');
+            
+        print_r($check['first_name']);
+       
     }
 }

@@ -14,6 +14,14 @@ class User extends CI_Model{
         return $result;
     }
 
+    public function getUser($email){
+        $this->db->where('email_address', $email);
+        $this->db->from($this->userTbl);
+        $query = $this->db->get();        
+        $result = $query->row_array();
+        return $result;
+    }
+
     public function insert($data = array()) {
         //add created and modified data if not included
         if(!array_key_exists("created", $data)){
