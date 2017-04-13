@@ -2,26 +2,26 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Users extends CI_Controller {
-	public function __construct() {
-		
+    public function __construct() {
+        
         parent::__construct();
-		$this->load->library(array('session'));
-		$this->load->helper(array('url'));
-		$this->load->helper('form');
-	    $this->load->library('form_validation');
+        $this->load->library(array('session'));
+        $this->load->helper(array('url'));
+        $this->load->helper('form');
+        $this->load->library('form_validation');
         $this->load->model('user');
-		$this->user_data = $this->session->userdata('userId');
+        $this->user_data = $this->session->userdata('userId');
         $this->load->library('My_PHPMailer');
-	        
+            
     }
 
     public function register(){
-    	$data['user_data'] = $this->user_data;
-		//echo '<pre>';
-		//print_r($data['user_data']);
-		//echo '</pre>';
+        $data['user_data'] = $this->user_data;
+        //echo '<pre>';
+        //print_r($data['user_data']);
+        //echo '</pre>';
 
-		$data = array();
+        $data = array();
         $userData = array();
         if($this->input->post('submit')){
             $this->form_validation->set_rules('name', 'Name', 'required');
@@ -49,8 +49,8 @@ class Users extends CI_Controller {
         }
         $data['user'] = $userData;
         
-		$this->load->view('template/header-main');
-		$this->load->view('template/header-nav',$data);
+        $this->load->view('template/header-main');
+        $this->load->view('template/header-nav',$data);
         //$this->load->view('template/header-main-nav');
 
        
@@ -120,4 +120,14 @@ class Users extends CI_Controller {
         
         return json_encode($data);
     }   
+
+    function verify() {
+         $result = $this->user->verify($_GET['email']); //get the hash value which belongs to given email from database
+         if($result){ 
+            if($result['hash']==$_GET['hash']){  //check whether the input hash value matches the hash value retrieved from the database
+                $this->user_registration_model->verify_user($_GET['email']); //update the status of the user as verified
+                /*---Now you can redirect the user to whatever page you want---*/
+            }
+         }
+    }
 }
